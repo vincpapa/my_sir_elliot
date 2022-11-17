@@ -1,0 +1,30 @@
+2022-11-17 18:07:42.350562: I Loading parameters
+2022-11-17 18:07:42.350653: I Parameter name set to 
+2022-11-17 18:07:42.350699: I Parameter path set to /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs/MultiVAE_seed=42_e=10_bs=6040_intermediate_dim=200_latent_dim=50_reg_lambda=0_lr=0$01_dropout_pkeep=0$19999999999999996_it=9.tsv
+2022-11-17 18:08:06.960523: I Finished
+2022-11-17 18:08:06.960758: I I have found a best iteration
+2022-11-17 18:08:06.972052: I Loading parameters
+2022-11-17 18:08:06.972328: I Parameter name set to 
+2022-11-17 18:08:06.972384: I Parameter path set to /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs/MultiVAE_seed=42_e=10_bs=6040_intermediate_dim=100_latent_dim=50_reg_lambda=0_lr=0$01_dropout_pkeep=0$19999999999999996_it=9.tsv
+2022-11-17 18:08:31.279870: I Finished
+2022-11-17 18:08:31.280020: I I have found a best iteration
+2022-11-17 18:08:31.291013: I Loading parameters
+2022-11-17 18:08:31.291349: I Parameter name set to 
+2022-11-17 18:08:31.291421: I Parameter path set to /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs/EASER_neighborhood=3664_l2_norm=200$0.tsv
+2022-11-17 18:08:56.372796: I Finished
+2022-11-17 18:08:56.373207: I I have found a best iteration
+2022-11-17 18:08:56.384331: I Loading parameters
+2022-11-17 18:08:56.384617: I Parameter name set to 
+2022-11-17 18:08:56.384783: I Parameter path set to /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs/MultiVAE_seed=42_e=10_bs=6040_intermediate_dim=100_latent_dim=100_reg_lambda=0_lr=0$01_dropout_pkeep=0$19999999999999996_it=6.tsv
+2022-11-17 18:09:20.441730: I Finished
+2022-11-17 18:09:20.442230: I I have found a best iteration
+2022-11-17 18:09:20.453659: I Loading parameters
+2022-11-17 18:09:20.454153: I Parameter name set to 
+2022-11-17 18:09:20.454258: I Parameter path set to /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs/EASER_neighborhood=3664_l2_norm=100$0.tsv
+2022-11-17 18:09:45.212952: I Finished
+2022-11-17 18:09:45.213496: I I have found a best iteration
+2022-11-17 18:09:45.225078: I Loading parameters
+2022-11-17 18:09:45.225884: I Parameter name set to 
+2022-11-17 18:09:45.226530: I Parameter path set to /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs/MultiVAE_seed=42_e=10_bs=6040_intermediate_dim=200_latent_dim=100_reg_lambda=0_lr=0$01_dropout_pkeep=0$19999999999999996_it=9.tsv
+2022-11-17 18:10:09.005012: I Finished
+2022-11-17 18:10:09.005676: I I have found a best iteration

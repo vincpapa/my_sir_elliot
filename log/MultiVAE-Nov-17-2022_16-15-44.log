@@ -1,0 +1,14 @@
+2022-11-17 16:15:46.788513: I Loading parameters
+2022-11-17 16:15:46.788745: I Parameter intermediate_dim set to 200
+2022-11-17 16:15:46.788984: I Parameter latent_dim set to 50
+2022-11-17 16:15:46.789184: I Parameter reg_lambda set to 0
+2022-11-17 16:15:46.789487: I Parameter lr set to 0.01
+2022-11-17 16:15:46.789713: I Parameter dropout_pkeep set to 0.8
+2022-11-17 16:15:52.207383: I Epoch 1/10 loss 973.41638
+2022-11-17 16:16:02.276847: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 16:16:05.410533: I ******************************************
+2022-11-17 16:16:08.620499: I Epoch 2/10 loss 242.52287
+2022-11-17 16:17:22.706614: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 16:17:27.441071: I ******************************************
+2022-11-17 16:17:30.670109: I Epoch 3/10 loss 103.47013
+2022-11-17 16:18:03.603880: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs

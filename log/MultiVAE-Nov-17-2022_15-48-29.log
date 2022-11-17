@@ -1,0 +1,2477 @@
+2022-11-17 15:48:30.637039: I Loading parameters
+2022-11-17 15:48:30.637290: I Parameter intermediate_dim set to 200
+2022-11-17 15:48:30.637336: I Parameter latent_dim set to 50
+2022-11-17 15:48:30.637374: I Parameter reg_lambda set to 0
+2022-11-17 15:48:30.637416: I Parameter lr set to 0.01
+2022-11-17 15:48:30.637452: I Parameter dropout_pkeep set to 0.8
+2022-11-17 15:48:32.778701: I Epoch 1/100 loss 973.41638
+2022-11-17 15:48:32.778812: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:32.864539: I ******************************************
+2022-11-17 15:48:34.182678: I Epoch 2/100 loss 242.52287
+2022-11-17 15:48:34.182795: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:34.271498: I ******************************************
+2022-11-17 15:48:35.607720: I Epoch 3/100 loss 103.47013
+2022-11-17 15:48:35.607831: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:35.693782: I ******************************************
+2022-11-17 15:48:37.024594: I Epoch 4/100 loss 56.82123
+2022-11-17 15:48:37.024703: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:37.111501: I ******************************************
+2022-11-17 15:48:38.523962: I Epoch 5/100 loss 36.30805
+2022-11-17 15:48:38.524078: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:38.609801: I ******************************************
+2022-11-17 15:48:39.979742: I Epoch 6/100 loss 24.89128
+2022-11-17 15:48:39.979853: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:41.439735: I Epoch 7/100 loss 18.26638
+2022-11-17 15:48:41.439852: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:42.879654: I Epoch 8/100 loss 13.93538
+2022-11-17 15:48:42.879761: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:44.324288: I Epoch 9/100 loss 10.99014
+2022-11-17 15:48:44.324416: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:44.411668: I ******************************************
+2022-11-17 15:48:45.773066: I Epoch 10/100 loss 8.88486
+2022-11-17 15:48:45.773179: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:47.211626: I Epoch 11/100 loss 7.29855
+2022-11-17 15:48:47.211737: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:47.299018: I ******************************************
+2022-11-17 15:48:47.306485: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:47.306741: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:47.306817: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:47.306884: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:47.306949: I Analyzed pair: (0.05784, 0.07506): True
+2022-11-17 15:48:47.307066: I Analyzed pair: (0.07506, 0.07742): True
+2022-11-17 15:48:47.307219: I Analyzed pair: (0.07742, 0.07429): False
+2022-11-17 15:48:47.307365: I Analyzed pair: (0.07429, 0.04292): False
+2022-11-17 15:48:47.307507: I Analyzed pair: (0.04292, 0.0292): False
+2022-11-17 15:48:47.307648: I Analyzed pair: (0.0292, 0.01335): False
+2022-11-17 15:48:47.307777: I Check List: [False, True, False, False, True, True, False, False, False, False]
+2022-11-17 15:48:48.639768: I Epoch 12/100 loss 6.10185
+2022-11-17 15:48:48.639878: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:48.737756: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:48.738041: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:48.738173: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:48.738332: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:48.738409: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:48.738553: I Analyzed pair: (0.05784, 0.07506): True
+2022-11-17 15:48:48.738700: I Analyzed pair: (0.07506, 0.07742): True
+2022-11-17 15:48:48.738847: I Analyzed pair: (0.07742, 0.07429): False
+2022-11-17 15:48:48.738993: I Analyzed pair: (0.07429, 0.04292): False
+2022-11-17 15:48:48.739136: I Analyzed pair: (0.04292, 0.0292): False
+2022-11-17 15:48:48.739194: I Check List: [True, False, True, False, False, True, True, False, False, False]
+2022-11-17 15:48:50.077927: I Epoch 13/100 loss 5.17591
+2022-11-17 15:48:50.078039: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:50.172785: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:50.173054: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:50.173131: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:50.173196: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:50.173313: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:50.173383: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:50.173454: I Analyzed pair: (0.05784, 0.07506): True
+2022-11-17 15:48:50.173600: I Analyzed pair: (0.07506, 0.07742): True
+2022-11-17 15:48:50.173672: I Analyzed pair: (0.07742, 0.07429): False
+2022-11-17 15:48:50.173734: I Analyzed pair: (0.07429, 0.04292): False
+2022-11-17 15:48:50.173782: I Check List: [False, True, False, True, False, False, True, True, False, False]
+2022-11-17 15:48:51.602210: I Epoch 14/100 loss 4.44435
+2022-11-17 15:48:51.602321: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:51.691793: I ******************************************
+2022-11-17 15:48:51.699411: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:48:51.699726: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:51.699889: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:51.700053: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:51.700131: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:51.700198: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:51.700340: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:51.700415: I Analyzed pair: (0.05784, 0.07506): True
+2022-11-17 15:48:51.700551: I Analyzed pair: (0.07506, 0.07742): True
+2022-11-17 15:48:51.700625: I Analyzed pair: (0.07742, 0.07429): False
+2022-11-17 15:48:51.700745: I Check List: [False, False, True, False, True, False, False, True, True, False]
+2022-11-17 15:48:53.056708: I Epoch 15/100 loss 3.85667
+2022-11-17 15:48:53.056818: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:53.146437: I ******************************************
+2022-11-17 15:48:53.154329: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:48:53.154622: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:48:53.154701: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:53.154767: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:53.154833: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:53.154898: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:53.154961: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:53.155026: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:53.155144: I Analyzed pair: (0.05784, 0.07506): True
+2022-11-17 15:48:53.155297: I Analyzed pair: (0.07506, 0.07742): True
+2022-11-17 15:48:53.155427: I Check List: [False, False, False, True, False, True, False, False, True, True]
+2022-11-17 15:48:54.491537: I Epoch 16/100 loss 3.37572
+2022-11-17 15:48:54.491651: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:54.581145: I ******************************************
+2022-11-17 15:48:54.588748: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:48:54.588973: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:48:54.589045: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:48:54.589159: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:54.589292: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:54.589415: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:54.589536: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:54.589657: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:54.589776: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:54.589894: I Analyzed pair: (0.05784, 0.07506): True
+2022-11-17 15:48:54.589997: I Check List: [False, False, False, False, True, False, True, False, False, True]
+2022-11-17 15:48:55.929271: I Epoch 17/100 loss 2.97697
+2022-11-17 15:48:55.929376: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:56.018445: I ******************************************
+2022-11-17 15:48:56.025829: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:48:56.026044: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:48:56.026152: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:48:56.026221: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:48:56.026354: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:56.026421: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:56.026547: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:56.026671: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:56.026793: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:56.026915: I Analyzed pair: (0.07605, 0.05784): False
+2022-11-17 15:48:56.027021: I Check List: [False, False, False, False, False, True, False, True, False, False]
+2022-11-17 15:48:57.370821: I Epoch 18/100 loss 2.64551
+2022-11-17 15:48:57.370930: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:57.467656: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:48:57.467871: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:48:57.467986: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:48:57.468102: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:48:57.468212: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:48:57.468320: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:57.468427: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:57.468534: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:57.468643: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:57.468753: I Analyzed pair: (0.08496, 0.07605): False
+2022-11-17 15:48:57.468844: I Check List: [True, False, False, False, False, False, True, False, True, False]
+2022-11-17 15:48:58.804357: I Epoch 19/100 loss 2.36816
+2022-11-17 15:48:58.804471: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:48:58.900763: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:48:58.900988: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:48:58.901099: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:48:58.901235: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:48:58.901361: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:48:58.901428: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:48:58.901558: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:48:58.901679: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:48:58.901797: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:48:58.901916: I Analyzed pair: (0.08396, 0.08496): True
+2022-11-17 15:48:58.902020: I Check List: [False, True, False, False, False, False, False, True, False, True]
+2022-11-17 15:49:00.251190: I Epoch 20/100 loss 2.13304
+2022-11-17 15:49:00.251301: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:00.340061: I ******************************************
+2022-11-17 15:49:00.348380: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:00.348604: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:00.348677: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:00.348783: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:00.348851: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:49:00.348984: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:49:00.349051: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:49:00.349175: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:49:00.349298: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:49:00.349419: I Analyzed pair: (0.08849, 0.08396): False
+2022-11-17 15:49:00.349524: I Check List: [False, False, True, False, False, False, False, False, True, False]
+2022-11-17 15:49:01.690674: I Epoch 21/100 loss 1.93129
+2022-11-17 15:49:01.690789: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:01.780898: I ******************************************
+2022-11-17 15:49:01.789252: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:01.789483: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:01.789602: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:01.789714: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:01.789825: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:01.789934: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:49:01.790045: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:49:01.790156: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:49:01.790267: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:49:01.790378: I Analyzed pair: (0.08525, 0.08849): True
+2022-11-17 15:49:01.790471: I Check List: [False, False, False, True, False, False, False, False, False, True]
+2022-11-17 15:49:03.129565: I Epoch 22/100 loss 1.75696
+2022-11-17 15:49:03.129672: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:03.217963: I ******************************************
+2022-11-17 15:49:03.226298: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:03.226500: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:03.226601: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:03.226715: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:03.226826: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:03.226936: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:03.227047: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:49:03.227159: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:49:03.227270: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:49:03.227382: I Analyzed pair: (0.08635, 0.08525): False
+2022-11-17 15:49:03.227476: I Check List: [False, False, False, False, True, False, False, False, False, False]
+2022-11-17 15:49:04.643175: I Epoch 23/100 loss 1.60458
+2022-11-17 15:49:04.643284: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:04.733553: I ******************************************
+2022-11-17 15:49:04.742030: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:04.742307: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:04.742379: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:04.742446: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:04.742560: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:04.742627: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:04.742764: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:04.742829: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:49:04.742954: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:49:04.743076: I Analyzed pair: (0.09539, 0.08635): False
+2022-11-17 15:49:04.743182: I Check List: [False, False, False, False, False, True, False, False, False, False]
+2022-11-17 15:49:06.082463: I Epoch 24/100 loss 1.47084
+2022-11-17 15:49:06.082581: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:06.171495: I ******************************************
+2022-11-17 15:49:06.179514: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:06.179732: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:06.179840: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:06.179978: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:06.180107: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:06.180175: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:06.180298: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:06.180421: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:06.180542: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:49:06.180662: I Analyzed pair: (0.10139, 0.09539): False
+2022-11-17 15:49:06.180765: I Check List: [False, False, False, False, False, False, True, False, False, False]
+2022-11-17 15:49:07.547506: I Epoch 25/100 loss 1.35259
+2022-11-17 15:49:07.547616: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:07.637494: I ******************************************
+2022-11-17 15:49:07.646007: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:07.646234: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:07.646342: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:07.646481: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:07.646608: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:07.646731: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:07.646854: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:07.646976: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:07.647119: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:07.647184: I Analyzed pair: (0.10694, 0.10139): False
+2022-11-17 15:49:07.647233: I Check List: [False, False, False, False, False, False, False, True, False, False]
+2022-11-17 15:49:08.992288: I Epoch 26/100 loss 1.24826
+2022-11-17 15:49:08.992398: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:09.082475: I ******************************************
+2022-11-17 15:49:09.090365: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:09.090582: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:09.090687: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:09.090819: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:09.090949: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:09.091070: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:09.091192: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:09.091311: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:09.091430: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:09.091549: I Analyzed pair: (0.11136, 0.10694): False
+2022-11-17 15:49:09.091651: I Check List: [False, False, False, False, False, False, False, False, True, False]
+2022-11-17 15:49:10.431276: I Epoch 27/100 loss 1.15572
+2022-11-17 15:49:10.431386: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:10.521515: I ******************************************
+2022-11-17 15:49:10.529429: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:10.529635: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:10.529736: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:10.529851: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:10.529961: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:10.530070: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:10.530180: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:10.530291: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:10.530401: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:10.530511: I Analyzed pair: (0.11069, 0.11136): True
+2022-11-17 15:49:10.530605: I Check List: [False, False, False, False, False, False, False, False, False, True]
+2022-11-17 15:49:11.886360: I Epoch 28/100 loss 1.07333
+2022-11-17 15:49:11.886469: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:11.985826: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:11.986103: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:11.986236: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:11.986391: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:11.986538: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:11.986684: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:11.986829: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:11.986971: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:11.987113: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:11.987255: I Analyzed pair: (0.11115, 0.11069): False
+2022-11-17 15:49:11.987374: I Check List: [True, False, False, False, False, False, False, False, False, False]
+2022-11-17 15:49:13.324705: I Epoch 29/100 loss 0.99983
+2022-11-17 15:49:13.324816: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:13.413273: I ******************************************
+2022-11-17 15:49:13.420956: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:13.421170: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:13.421242: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:13.421343: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:13.421410: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:13.421540: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:13.421605: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:13.421728: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:13.421849: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:13.421967: I Analyzed pair: (0.11289, 0.11115): False
+2022-11-17 15:49:13.422070: I Check List: [False, True, False, False, False, False, False, False, False, False]
+2022-11-17 15:49:14.760228: I Epoch 30/100 loss 0.93359
+2022-11-17 15:49:14.760352: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:14.855897: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:14.856128: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:14.856234: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:14.856302: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:14.856428: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:14.856494: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:14.856615: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:14.856736: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:14.856856: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:14.856976: I Analyzed pair: (0.11645, 0.11289): False
+2022-11-17 15:49:14.857079: I Check List: [True, False, True, False, False, False, False, False, False, False]
+2022-11-17 15:49:16.201724: I Epoch 31/100 loss 0.87232
+2022-11-17 15:49:16.201841: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:16.289938: I ******************************************
+2022-11-17 15:49:16.298223: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:16.298440: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:16.298545: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:16.298676: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:16.298744: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:16.298863: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:16.298984: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:16.299048: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:16.299167: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:16.299287: I Analyzed pair: (0.11671, 0.11645): False
+2022-11-17 15:49:16.299390: I Check List: [False, True, False, True, False, False, False, False, False, False]
+2022-11-17 15:49:17.735024: I Epoch 32/100 loss 0.81716
+2022-11-17 15:49:17.735137: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:17.823180: I ******************************************
+2022-11-17 15:49:17.831524: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:17.831734: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:17.831805: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:17.831906: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:17.832048: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:17.832115: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:17.832239: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:17.832304: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:17.832424: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:17.832543: I Analyzed pair: (0.11932, 0.11671): False
+2022-11-17 15:49:17.832648: I Check List: [False, False, True, False, True, False, False, False, False, False]
+2022-11-17 15:49:19.185086: I Epoch 33/100 loss 0.76820
+2022-11-17 15:49:19.185191: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:19.282015: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:19.282232: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:19.282337: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:19.282406: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:19.282534: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:19.282601: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:19.282721: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:19.282842: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:19.282962: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:19.283082: I Analyzed pair: (0.12247, 0.11932): False
+2022-11-17 15:49:19.283132: I Check List: [True, False, False, True, False, True, False, False, False, False]
+2022-11-17 15:49:20.619456: I Epoch 34/100 loss 0.72265
+2022-11-17 15:49:20.619564: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:20.708064: I ******************************************
+2022-11-17 15:49:20.716197: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:20.716415: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:20.716488: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:20.716590: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:20.716658: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:20.716787: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:20.716854: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:20.716976: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:20.717097: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:20.717217: I Analyzed pair: (0.12482, 0.12247): False
+2022-11-17 15:49:20.717320: I Check List: [False, True, False, False, True, False, True, False, False, False]
+2022-11-17 15:49:22.104161: I Epoch 35/100 loss 0.68131
+2022-11-17 15:49:22.104276: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:22.193744: I ******************************************
+2022-11-17 15:49:22.202169: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:22.202388: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:22.202460: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:22.202562: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:22.202630: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:22.202758: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:22.202823: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:22.202948: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:22.203067: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:22.203186: I Analyzed pair: (0.12513, 0.12482): False
+2022-11-17 15:49:22.203288: I Check List: [False, False, True, False, False, True, False, True, False, False]
+2022-11-17 15:49:23.565507: I Epoch 36/100 loss 0.64364
+2022-11-17 15:49:23.565614: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:23.664137: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:23.664314: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:23.664384: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:23.664516: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:23.664583: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:23.664684: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:23.664814: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:23.664935: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:23.665055: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:23.665175: I Analyzed pair: (0.12865, 0.12513): False
+2022-11-17 15:49:23.665295: I Check List: [True, False, False, True, False, False, True, False, True, False]
+2022-11-17 15:49:25.005597: I Epoch 37/100 loss 0.60859
+2022-11-17 15:49:25.005703: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:25.102570: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:25.102782: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:25.102882: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:25.102994: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:25.103104: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:25.103213: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:25.103324: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:25.103433: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:25.103542: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:25.103653: I Analyzed pair: (0.1279, 0.12865): True
+2022-11-17 15:49:25.103744: I Check List: [False, True, False, False, True, False, False, True, False, True]
+2022-11-17 15:49:26.472005: I Epoch 38/100 loss 0.57650
+2022-11-17 15:49:26.472115: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:26.560557: I ******************************************
+2022-11-17 15:49:26.568664: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:26.568980: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:26.569065: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:26.569221: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:26.569304: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:26.569455: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:26.569537: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:26.569681: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:26.569835: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:26.569989: I Analyzed pair: (0.13161, 0.1279): False
+2022-11-17 15:49:26.570127: I Check List: [False, False, True, False, False, True, False, False, True, False]
+2022-11-17 15:49:27.953055: I Epoch 39/100 loss 0.54677
+2022-11-17 15:49:27.953161: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:28.047455: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:28.047670: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:28.047741: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:28.047843: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:28.047987: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:28.048054: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:28.048182: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:28.048306: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:28.048426: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:28.048545: I Analyzed pair: (0.12889, 0.13161): True
+2022-11-17 15:49:28.048649: I Check List: [True, False, False, True, False, False, True, False, False, True]
+2022-11-17 15:49:29.412261: I Epoch 40/100 loss 0.51935
+2022-11-17 15:49:29.412370: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:29.509395: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:29.509674: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:29.509803: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:29.509877: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:29.509947: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:29.510094: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:29.510241: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:29.510385: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:29.510527: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:29.510670: I Analyzed pair: (0.13175, 0.12889): False
+2022-11-17 15:49:29.510797: I Check List: [False, True, False, False, True, False, False, True, False, False]
+2022-11-17 15:49:30.870892: I Epoch 41/100 loss 0.49383
+2022-11-17 15:49:30.871003: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:30.959952: I ******************************************
+2022-11-17 15:49:30.968828: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:30.969065: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:30.969188: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:30.969340: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:30.969423: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:30.969562: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:30.969701: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:30.969830: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:30.969953: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:30.970073: I Analyzed pair: (0.13494, 0.13175): False
+2022-11-17 15:49:30.970176: I Check List: [False, False, True, False, False, True, False, False, True, False]
+2022-11-17 15:49:32.420331: I Epoch 42/100 loss 0.47021
+2022-11-17 15:49:32.420442: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:32.509736: I ******************************************
+2022-11-17 15:49:32.517632: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:32.517856: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:32.517971: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:32.518040: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:32.518180: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:32.518247: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:32.518375: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:32.518499: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:32.518622: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:32.518743: I Analyzed pair: (0.13401, 0.13494): True
+2022-11-17 15:49:32.518848: I Check List: [False, False, False, True, False, False, True, False, False, True]
+2022-11-17 15:49:33.898275: I Epoch 43/100 loss 0.44805
+2022-11-17 15:49:33.898380: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:33.997314: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:33.997573: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:33.997721: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:33.997856: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:33.997988: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:33.998120: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:33.998248: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:33.998388: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:33.998523: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:33.998595: I Analyzed pair: (0.13531, 0.13401): False
+2022-11-17 15:49:33.998703: I Check List: [True, False, False, False, True, False, False, True, False, False]
+2022-11-17 15:49:35.381470: I Epoch 44/100 loss 0.42754
+2022-11-17 15:49:35.381590: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:35.473198: I ******************************************
+2022-11-17 15:49:35.481693: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:35.481941: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:35.482014: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:35.482121: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:35.482257: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:35.482383: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:35.482510: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:35.482632: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:35.482752: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:35.482872: I Analyzed pair: (0.13975, 0.13531): False
+2022-11-17 15:49:35.482975: I Check List: [False, True, False, False, False, True, False, False, True, False]
+2022-11-17 15:49:36.838341: I Epoch 45/100 loss 0.40834
+2022-11-17 15:49:36.838450: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:36.935961: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:36.936194: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:36.936304: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:36.936372: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:36.936503: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:36.936569: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:36.936691: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:36.936813: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:36.936933: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:36.937052: I Analyzed pair: (0.13753, 0.13975): True
+2022-11-17 15:49:36.937154: I Check List: [True, False, True, False, False, False, True, False, False, True]
+2022-11-17 15:49:38.269105: I Epoch 46/100 loss 0.39038
+2022-11-17 15:49:38.269211: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:38.370223: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:38.370400: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:38.370475: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:38.370613: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:38.370724: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:38.370860: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:38.370931: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:38.371058: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:38.371183: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:38.371253: I Analyzed pair: (0.13766, 0.13753): False
+2022-11-17 15:49:38.371359: I Check List: [True, True, False, True, False, False, False, True, False, False]
+2022-11-17 15:49:39.720636: I Epoch 47/100 loss 0.37359
+2022-11-17 15:49:39.720743: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:39.817184: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:39.817405: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:39.817512: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:39.817642: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:39.817766: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:39.817891: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:39.818011: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:39.818132: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:39.818252: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:39.818371: I Analyzed pair: (0.14007, 0.13766): False
+2022-11-17 15:49:39.818473: I Check List: [False, True, True, False, True, False, False, False, True, False]
+2022-11-17 15:49:41.147667: I Epoch 48/100 loss 0.35790
+2022-11-17 15:49:41.147781: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:41.251147: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:41.251440: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:41.251580: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:41.251746: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:41.251903: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:41.252072: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:41.252155: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:41.252300: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:41.252388: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:41.252621: I Analyzed pair: (0.13829, 0.14007): True
+2022-11-17 15:49:41.252922: I Check List: [True, False, True, True, False, True, False, False, False, True]
+2022-11-17 15:49:42.602968: I Epoch 49/100 loss 0.34314
+2022-11-17 15:49:42.603081: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:42.692133: I ******************************************
+2022-11-17 15:49:42.700149: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:42.700422: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:42.700549: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:42.700702: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:42.700777: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:42.700914: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:42.701059: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:42.701132: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:42.701268: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:42.701412: I Analyzed pair: (0.13853, 0.13829): False
+2022-11-17 15:49:42.701539: I Check List: [False, True, False, True, True, False, True, False, False, False]
+2022-11-17 15:49:44.039356: I Epoch 50/100 loss 0.32929
+2022-11-17 15:49:44.039468: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:44.126931: I ******************************************
+2022-11-17 15:49:44.134805: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:44.135115: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:44.135193: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:44.135338: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:44.135482: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:44.135554: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:44.135618: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:44.135751: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:44.135896: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:44.136049: I Analyzed pair: (0.14275, 0.13853): False
+2022-11-17 15:49:44.136176: I Check List: [False, False, True, False, True, True, False, True, False, False]
+2022-11-17 15:49:45.474844: I Epoch 51/100 loss 0.31629
+2022-11-17 15:49:45.474955: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:45.570648: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:45.570966: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:45.571123: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:45.571199: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:45.571334: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:45.571478: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:45.571617: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:45.571759: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:45.571901: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:45.572050: I Analyzed pair: (0.1438, 0.14275): False
+2022-11-17 15:49:45.572175: I Check List: [True, False, False, True, False, True, True, False, True, False]
+2022-11-17 15:49:47.037024: I Epoch 52/100 loss 0.30402
+2022-11-17 15:49:47.037135: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:47.132474: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:47.132787: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:47.132871: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:47.132942: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:47.133095: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:47.133255: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:47.133336: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:47.133480: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:47.133633: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:47.133786: I Analyzed pair: (0.14318, 0.1438): True
+2022-11-17 15:49:47.133922: I Check List: [False, True, False, False, True, False, True, True, False, True]
+2022-11-17 15:49:48.485626: I Epoch 53/100 loss 0.29247
+2022-11-17 15:49:48.485730: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:48.572845: I ******************************************
+2022-11-17 15:49:48.580469: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:48.580772: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:48.580902: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:48.580976: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:48.581126: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:48.581200: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:48.581264: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:48.581402: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:48.581546: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:48.581697: I Analyzed pair: (0.14648, 0.14318): False
+2022-11-17 15:49:48.581824: I Check List: [False, False, True, False, False, True, False, True, True, False]
+2022-11-17 15:49:49.921322: I Epoch 54/100 loss 0.28155
+2022-11-17 15:49:49.921434: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:50.016068: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:50.016357: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:50.016436: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:50.016581: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:50.016728: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:50.016801: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:50.016937: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:50.017080: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:50.017223: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:50.017364: I Analyzed pair: (0.14571, 0.14648): True
+2022-11-17 15:49:50.017490: I Check List: [True, False, False, True, False, False, True, False, True, True]
+2022-11-17 15:49:51.354584: I Epoch 55/100 loss 0.27121
+2022-11-17 15:49:51.354695: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:51.442895: I ******************************************
+2022-11-17 15:49:51.450917: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:49:51.451194: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:51.451319: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:51.451475: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:51.451622: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:51.451766: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:51.451914: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:51.451995: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:51.452058: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:51.452121: I Analyzed pair: (0.1454, 0.14571): True
+2022-11-17 15:49:51.452169: I Check List: [False, True, False, False, True, False, False, True, False, True]
+2022-11-17 15:49:52.798765: I Epoch 56/100 loss 0.26143
+2022-11-17 15:49:52.798875: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:52.886266: I ******************************************
+2022-11-17 15:49:52.894314: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:49:52.894627: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:49:52.894788: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:52.894865: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:52.894931: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:52.894996: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:52.895059: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:52.895123: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:52.895267: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:52.895386: I Analyzed pair: (0.1462, 0.1454): False
+2022-11-17 15:49:52.895515: I Check List: [False, False, True, False, False, True, False, False, True, False]
+2022-11-17 15:49:54.234105: I Epoch 57/100 loss 0.25218
+2022-11-17 15:49:54.234214: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:54.331967: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:49:54.332284: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:49:54.332362: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:49:54.332428: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:54.332493: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:54.332556: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:54.332626: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:54.332782: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:54.332933: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:54.333078: I Analyzed pair: (0.14587, 0.1462): True
+2022-11-17 15:49:54.333206: I Check List: [True, False, False, True, False, False, True, False, False, True]
+2022-11-17 15:49:55.666034: I Epoch 58/100 loss 0.24340
+2022-11-17 15:49:55.666141: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:55.761561: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:49:55.761778: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:49:55.761850: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:49:55.761954: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:49:55.762021: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:55.762148: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:55.762213: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:55.762332: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:55.762451: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:55.762570: I Analyzed pair: (0.14707, 0.14587): False
+2022-11-17 15:49:55.762671: I Check List: [False, True, False, False, True, False, False, True, False, False]
+2022-11-17 15:49:57.107106: I Epoch 59/100 loss 0.23506
+2022-11-17 15:49:57.107234: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:57.213855: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:49:57.214114: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:49:57.214186: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:49:57.214320: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:49:57.214389: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:49:57.214513: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:57.214579: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:57.214701: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:57.214824: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:57.214949: I Analyzed pair: (0.14784, 0.14707): False
+2022-11-17 15:49:57.215000: I Check List: [True, False, True, False, False, True, False, False, True, False]
+2022-11-17 15:49:58.567503: I Epoch 60/100 loss 0.22714
+2022-11-17 15:49:58.567612: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:49:58.665120: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:49:58.665352: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:49:58.665465: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:49:58.665535: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:49:58.665601: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:49:58.665744: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:49:58.665869: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:49:58.665990: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:49:58.666110: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:49:58.666229: I Analyzed pair: (0.14733, 0.14784): True
+2022-11-17 15:49:58.666331: I Check List: [False, True, False, True, False, False, True, False, False, True]
+2022-11-17 15:50:00.014338: I Epoch 61/100 loss 0.21963
+2022-11-17 15:50:00.014449: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:00.111800: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:00.112049: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:00.112123: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:00.112189: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:00.112254: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:50:00.112320: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:50:00.112441: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:50:00.112507: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:50:00.112640: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:50:00.112706: I Analyzed pair: (0.14744, 0.14733): False
+2022-11-17 15:50:00.112811: I Check List: [False, False, True, False, True, False, False, True, False, False]
+2022-11-17 15:50:01.477495: I Epoch 62/100 loss 0.21246
+2022-11-17 15:50:01.477612: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:01.575572: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:01.575805: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:01.575916: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:01.576073: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:01.576197: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:01.576318: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:50:01.576438: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:50:01.576559: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:50:01.576677: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:50:01.576795: I Analyzed pair: (0.14819, 0.14744): False
+2022-11-17 15:50:01.576898: I Check List: [True, False, False, True, False, True, False, False, True, False]
+2022-11-17 15:50:03.014744: I Epoch 63/100 loss 0.20566
+2022-11-17 15:50:03.014854: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:03.110207: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:03.110497: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:03.110577: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:03.110645: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:03.110711: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:03.110832: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:03.110904: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:50:03.110969: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:50:03.111118: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:50:03.111265: I Analyzed pair: (0.14816, 0.14819): True
+2022-11-17 15:50:03.111393: I Check List: [False, True, False, False, True, False, True, False, False, True]
+2022-11-17 15:50:04.454243: I Epoch 64/100 loss 0.19918
+2022-11-17 15:50:04.454359: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:04.550798: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:04.551091: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:04.551223: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:04.551382: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:04.551532: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:04.551659: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:04.551776: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:04.551846: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:50:04.551998: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:50:04.552159: I Analyzed pair: (0.14862, 0.14816): False
+2022-11-17 15:50:04.552218: I Check List: [True, False, True, False, False, True, False, True, False, False]
+2022-11-17 15:50:05.881975: I Epoch 65/100 loss 0.19301
+2022-11-17 15:50:05.882091: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:05.970129: I ******************************************
+2022-11-17 15:50:05.977590: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:05.977904: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:05.977980: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:05.978128: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:05.978206: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:05.978343: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:05.978415: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:05.978549: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:05.978691: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:50:05.978832: I Analyzed pair: (0.15102, 0.14862): False
+2022-11-17 15:50:05.978888: I Check List: [False, True, False, True, False, False, True, False, True, False]
+2022-11-17 15:50:07.317960: I Epoch 66/100 loss 0.18719
+2022-11-17 15:50:07.318073: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:07.413744: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:07.414036: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:07.414113: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:07.414179: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:07.414243: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:07.414307: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:07.414370: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:07.414433: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:07.414550: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:07.414699: I Analyzed pair: (0.14881, 0.15102): True
+2022-11-17 15:50:07.414827: I Check List: [True, False, True, False, True, False, False, True, False, True]
+2022-11-17 15:50:08.749450: I Epoch 67/100 loss 0.18171
+2022-11-17 15:50:08.749562: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:08.840461: I ******************************************
+2022-11-17 15:50:08.848892: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:08.849202: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:08.849280: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:08.849346: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:08.849492: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:08.849565: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:08.849700: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:08.849872: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:08.849946: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:08.850082: I Analyzed pair: (0.15055, 0.14881): False
+2022-11-17 15:50:08.850207: I Check List: [False, True, False, True, False, True, False, False, True, False]
+2022-11-17 15:50:10.191673: I Epoch 68/100 loss 0.17640
+2022-11-17 15:50:10.191783: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:10.287397: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:10.287727: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:10.287886: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:10.288045: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:10.288123: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:10.288190: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:10.288255: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:10.288392: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:10.288535: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:10.288678: I Analyzed pair: (0.14903, 0.15055): True
+2022-11-17 15:50:10.288736: I Check List: [True, False, True, False, True, False, True, False, False, True]
+2022-11-17 15:50:11.636363: I Epoch 69/100 loss 0.17097
+2022-11-17 15:50:11.636472: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:11.735509: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:11.735813: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:11.735965: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:11.736042: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:11.736108: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:11.736173: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:11.736238: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:11.736388: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:11.736537: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:11.736611: I Analyzed pair: (0.14911, 0.14903): False
+2022-11-17 15:50:11.736730: I Check List: [False, True, False, True, False, True, False, True, False, False]
+2022-11-17 15:50:13.079844: I Epoch 70/100 loss 0.16601
+2022-11-17 15:50:13.079981: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:13.167787: I ******************************************
+2022-11-17 15:50:13.175251: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:13.175572: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:13.175728: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:13.175872: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:13.176026: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:13.176169: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:13.176310: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:13.176461: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:13.176534: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:13.176668: I Analyzed pair: (0.14996, 0.14911): False
+2022-11-17 15:50:13.176725: I Check List: [False, False, True, False, True, False, True, False, True, False]
+2022-11-17 15:50:14.503423: I Epoch 71/100 loss 0.16138
+2022-11-17 15:50:14.503542: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:14.599851: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:14.600164: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:14.600242: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:14.600308: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:14.600372: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:14.600488: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:14.600644: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:14.600789: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:14.600932: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:14.601074: I Analyzed pair: (0.14853, 0.14996): True
+2022-11-17 15:50:14.601199: I Check List: [True, False, False, True, False, True, False, True, False, True]
+2022-11-17 15:50:15.930729: I Epoch 72/100 loss 0.15673
+2022-11-17 15:50:15.930852: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:16.025837: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:16.026131: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:16.026210: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:16.026276: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:16.026394: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:16.026465: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:16.026529: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:16.026592: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:16.026738: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:16.026883: I Analyzed pair: (0.15074, 0.14853): False
+2022-11-17 15:50:16.027009: I Check List: [False, True, False, False, True, False, True, False, True, False]
+2022-11-17 15:50:17.372525: I Epoch 73/100 loss 0.15245
+2022-11-17 15:50:17.372637: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:17.459144: I ******************************************
+2022-11-17 15:50:17.466463: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:17.466757: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:17.466836: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:17.466901: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:17.466966: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:17.467029: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:17.467091: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:17.467209: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:17.467361: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:17.467504: I Analyzed pair: (0.14963, 0.15074): True
+2022-11-17 15:50:17.467631: I Check List: [False, False, True, False, False, True, False, True, False, True]
+2022-11-17 15:50:18.801325: I Epoch 74/100 loss 0.14823
+2022-11-17 15:50:18.801439: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:18.894927: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:18.895206: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:18.895334: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:18.895487: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:18.895613: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:18.895729: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:18.895869: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:18.896028: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:18.896173: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:18.896319: I Analyzed pair: (0.15173, 0.14963): False
+2022-11-17 15:50:18.896444: I Check List: [True, False, False, True, False, False, True, False, True, False]
+2022-11-17 15:50:20.333362: I Epoch 75/100 loss 0.14422
+2022-11-17 15:50:20.333476: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:20.429708: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:20.430032: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:20.430193: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:20.430343: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:20.430489: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:20.430639: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:20.430782: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:20.430856: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:20.430991: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:20.431138: I Analyzed pair: (0.14532, 0.15173): True
+2022-11-17 15:50:20.431265: I Check List: [True, True, False, False, True, False, False, True, False, True]
+2022-11-17 15:50:21.767864: I Epoch 76/100 loss 0.14041
+2022-11-17 15:50:21.767995: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:21.862339: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:21.862627: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:21.862706: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:21.862773: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:21.862838: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:21.862903: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:21.863019: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:21.863089: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:21.863235: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:21.863379: I Analyzed pair: (0.15205, 0.14532): False
+2022-11-17 15:50:21.863504: I Check List: [False, True, True, False, False, True, False, False, True, False]
+2022-11-17 15:50:23.196829: I Epoch 77/100 loss 0.13665
+2022-11-17 15:50:23.196938: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:23.293777: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:23.294057: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:23.294135: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:23.294201: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:23.294266: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:23.294381: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:23.294451: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:23.294594: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:23.294738: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:23.294881: I Analyzed pair: (0.14825, 0.15205): True
+2022-11-17 15:50:23.294939: I Check List: [True, False, True, True, False, False, True, False, False, True]
+2022-11-17 15:50:24.621833: I Epoch 78/100 loss 0.13315
+2022-11-17 15:50:24.621951: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:24.717200: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:24.717486: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:24.717566: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:24.717633: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:24.717699: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:24.717817: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:24.717970: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:24.718117: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:24.718266: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:24.718408: I Analyzed pair: (0.14984, 0.14825): False
+2022-11-17 15:50:24.718533: I Check List: [False, True, False, True, True, False, False, True, False, False]
+2022-11-17 15:50:26.063819: I Epoch 79/100 loss 0.12971
+2022-11-17 15:50:26.063933: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:26.158670: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:26.158955: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:26.159088: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:26.159245: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:26.159393: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:26.159538: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:26.159613: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:26.159749: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:26.159822: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:26.159977: I Analyzed pair: (0.15248, 0.14984): False
+2022-11-17 15:50:26.160110: I Check List: [False, False, True, False, True, True, False, False, True, False]
+2022-11-17 15:50:27.503301: I Epoch 80/100 loss 0.12642
+2022-11-17 15:50:27.503419: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:27.590467: I ******************************************
+2022-11-17 15:50:27.597909: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:27.598194: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:27.598272: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:27.598392: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:27.598464: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:27.598528: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:27.598596: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:27.598659: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:27.598802: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:27.598947: I Analyzed pair: (0.14932, 0.15248): True
+2022-11-17 15:50:27.599073: I Check List: [False, False, False, True, False, True, True, False, False, True]
+2022-11-17 15:50:28.953885: I Epoch 81/100 loss 0.12326
+2022-11-17 15:50:28.953996: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:29.052036: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:29.052346: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:29.052503: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:29.052580: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:29.052653: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:29.052794: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:29.052944: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:29.053086: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:29.053229: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:29.053371: I Analyzed pair: (0.15051, 0.14932): False
+2022-11-17 15:50:29.053497: I Check List: [True, False, False, False, True, False, True, True, False, False]
+2022-11-17 15:50:30.425327: I Epoch 82/100 loss 0.12020
+2022-11-17 15:50:30.425459: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:30.528192: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:30.528464: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:30.528543: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:30.528610: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:30.528756: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:30.528831: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:30.528971: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:30.529044: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:30.529180: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:30.529322: I Analyzed pair: (0.15278, 0.15051): False
+2022-11-17 15:50:30.529447: I Check List: [True, True, False, False, False, True, False, True, True, False]
+2022-11-17 15:50:31.895203: I Epoch 83/100 loss 0.11727
+2022-11-17 15:50:31.895313: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:31.992841: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:31.993121: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:31.993199: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:31.993334: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:31.993490: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:31.993639: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:31.993785: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:31.993931: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:31.994074: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:31.994218: I Analyzed pair: (0.15136, 0.15278): True
+2022-11-17 15:50:31.994347: I Check List: [False, True, True, False, False, False, True, False, True, True]
+2022-11-17 15:50:33.339115: I Epoch 84/100 loss 0.11443
+2022-11-17 15:50:33.339224: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:33.435398: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:33.435719: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:33.435877: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:33.436035: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:33.436111: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:33.436178: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:33.436242: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:33.436306: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:33.436369: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:33.436508: I Analyzed pair: (0.15132, 0.15136): True
+2022-11-17 15:50:33.436643: I Check List: [True, False, True, True, False, False, False, True, False, True]
+2022-11-17 15:50:34.831837: I Epoch 85/100 loss 0.11169
+2022-11-17 15:50:34.831955: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:34.928449: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:34.928682: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:34.928792: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:34.928862: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:34.928993: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:34.929061: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:34.929184: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:34.929305: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:34.929425: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:34.929546: I Analyzed pair: (0.15155, 0.15132): False
+2022-11-17 15:50:34.929648: I Check List: [True, True, False, True, True, False, False, False, True, False]
+2022-11-17 15:50:36.404353: I Epoch 86/100 loss 0.10905
+2022-11-17 15:50:36.404466: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:36.494605: I ******************************************
+2022-11-17 15:50:36.501725: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:36.501925: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:36.502020: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:36.502129: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:36.502233: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:36.502333: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:36.502434: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:36.502534: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:36.502634: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:36.502734: I Analyzed pair: (0.15116, 0.15155): True
+2022-11-17 15:50:36.502819: I Check List: [False, True, True, False, True, True, False, False, False, True]
+2022-11-17 15:50:37.874082: I Epoch 87/100 loss 0.10651
+2022-11-17 15:50:37.874204: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:37.969248: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:37.969463: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:37.969565: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:37.969684: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:37.969800: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:37.969913: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:37.970026: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:37.970138: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:37.970250: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:37.970362: I Analyzed pair: (0.15156, 0.15116): False
+2022-11-17 15:50:37.970458: I Check List: [True, False, True, True, False, True, True, False, False, False]
+2022-11-17 15:50:39.333729: I Epoch 88/100 loss 0.10405
+2022-11-17 15:50:39.333834: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:39.429783: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:39.430019: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:39.430091: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:39.430198: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:39.430266: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:39.430398: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:39.430464: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:39.430588: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:39.430711: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:39.430832: I Analyzed pair: (0.15189, 0.15156): False
+2022-11-17 15:50:39.430937: I Check List: [True, True, False, True, True, False, True, True, False, False]
+2022-11-17 15:50:40.781484: I Epoch 89/100 loss 0.10167
+2022-11-17 15:50:40.781594: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:40.878985: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:40.879209: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:40.879283: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:40.879385: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:40.879513: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:40.879633: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:40.879755: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:40.879874: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:40.880004: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:40.880125: I Analyzed pair: (0.15285, 0.15189): False
+2022-11-17 15:50:40.880228: I Check List: [False, True, True, False, True, True, False, True, True, False]
+2022-11-17 15:50:42.220955: I Epoch 90/100 loss 0.09938
+2022-11-17 15:50:42.221061: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:42.309278: I ******************************************
+2022-11-17 15:50:42.316152: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:42.316393: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:42.316463: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:42.316590: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:42.316711: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:42.316831: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:42.316949: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:42.317014: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:42.317133: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:42.317252: I Analyzed pair: (0.15251, 0.15285): True
+2022-11-17 15:50:42.317355: I Check List: [False, False, True, True, False, True, True, False, True, True]
+2022-11-17 15:50:43.656535: I Epoch 91/100 loss 0.09715
+2022-11-17 15:50:43.656646: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:43.752511: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:43.752679: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:43.752749: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:43.752879: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:43.752990: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:43.753057: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:43.753185: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:43.753251: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:43.753371: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:43.753489: I Analyzed pair: (0.15103, 0.15251): True
+2022-11-17 15:50:43.753592: I Check List: [True, False, False, True, True, False, True, True, False, True]
+2022-11-17 15:50:45.100604: I Epoch 92/100 loss 0.09502
+2022-11-17 15:50:45.100715: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:45.198487: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:45.198660: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:45.198731: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:45.198863: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:45.198932: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:45.199034: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:45.199101: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:45.199232: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:45.199354: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:45.199474: I Analyzed pair: (0.15228, 0.15103): False
+2022-11-17 15:50:45.199578: I Check List: [False, True, False, False, True, True, False, True, True, False]
+2022-11-17 15:50:46.546175: I Epoch 93/100 loss 0.09294
+2022-11-17 15:50:46.546296: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:46.640956: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:46.641174: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:46.641281: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:46.641423: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:46.641493: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:46.641616: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:46.641736: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:46.641856: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:46.641976: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:46.642095: I Analyzed pair: (0.15223, 0.15228): True
+2022-11-17 15:50:46.642207: I Check List: [True, False, True, False, False, True, True, False, True, True]
+2022-11-17 15:50:47.986252: I Epoch 94/100 loss 0.09093
+2022-11-17 15:50:47.986363: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:48.080282: I Analyzed pair: (0.15173, 0.15214): True
+2022-11-17 15:50:48.080513: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:48.080620: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:48.080747: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:48.080818: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:48.080883: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:48.080951: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:48.081083: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:48.081148: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:48.081251: I Analyzed pair: (0.1516, 0.15223): True
+2022-11-17 15:50:48.081300: I Check List: [True, True, False, True, False, False, True, True, False, True]
+2022-11-17 15:50:49.446061: I Epoch 95/100 loss 0.08898
+2022-11-17 15:50:49.446178: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:49.541531: I Analyzed pair: (0.1518, 0.15173): False
+2022-11-17 15:50:49.541756: I Analyzed pair: (0.15173, 0.15214): True
+2022-11-17 15:50:49.541863: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:49.541932: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:49.542058: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:49.542125: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:49.542244: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:49.542363: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:49.542481: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:49.542599: I Analyzed pair: (0.15329, 0.1516): False
+2022-11-17 15:50:49.542648: I Check List: [False, True, True, False, True, False, False, True, True, False]
+2022-11-17 15:50:50.906805: I Epoch 96/100 loss 0.08710
+2022-11-17 15:50:50.906943: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:51.003002: I Analyzed pair: (0.15173, 0.1518): True
+2022-11-17 15:50:51.003309: I Analyzed pair: (0.1518, 0.15173): False
+2022-11-17 15:50:51.003443: I Analyzed pair: (0.15173, 0.15214): True
+2022-11-17 15:50:51.003597: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:51.003745: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:51.003888: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:51.004053: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:51.004202: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:51.004344: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:51.004488: I Analyzed pair: (0.15305, 0.15329): True
+2022-11-17 15:50:51.004614: I Check List: [True, False, True, True, False, True, False, False, True, True]
+2022-11-17 15:50:52.363167: I Epoch 97/100 loss 0.08528
+2022-11-17 15:50:52.363280: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:52.458049: I Analyzed pair: (0.15242, 0.15173): False
+2022-11-17 15:50:52.458323: I Analyzed pair: (0.15173, 0.1518): True
+2022-11-17 15:50:52.458397: I Analyzed pair: (0.1518, 0.15173): False
+2022-11-17 15:50:52.458529: I Analyzed pair: (0.15173, 0.15214): True
+2022-11-17 15:50:52.458597: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:52.458723: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:52.458789: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:52.458909: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:52.459032: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:52.459152: I Analyzed pair: (0.15168, 0.15305): True
+2022-11-17 15:50:52.459255: I Check List: [False, True, False, True, True, False, True, False, False, True]
+2022-11-17 15:50:53.809000: I Epoch 98/100 loss 0.08351
+2022-11-17 15:50:53.809111: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:53.901786: I Analyzed pair: (0.15263, 0.15242): False
+2022-11-17 15:50:53.902050: I Analyzed pair: (0.15242, 0.15173): False
+2022-11-17 15:50:53.902129: I Analyzed pair: (0.15173, 0.1518): True
+2022-11-17 15:50:53.902196: I Analyzed pair: (0.1518, 0.15173): False
+2022-11-17 15:50:53.902261: I Analyzed pair: (0.15173, 0.15214): True
+2022-11-17 15:50:53.902326: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:53.902390: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:53.902455: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:53.902567: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:53.902717: I Analyzed pair: (0.15281, 0.15168): False
+2022-11-17 15:50:53.902844: I Check List: [False, False, True, False, True, True, False, True, False, False]
+2022-11-17 15:50:55.352050: I Epoch 99/100 loss 0.08180
+2022-11-17 15:50:55.352158: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:55.446760: I Analyzed pair: (0.15231, 0.15263): True
+2022-11-17 15:50:55.447075: I Analyzed pair: (0.15263, 0.15242): False
+2022-11-17 15:50:55.447154: I Analyzed pair: (0.15242, 0.15173): False
+2022-11-17 15:50:55.447221: I Analyzed pair: (0.15173, 0.1518): True
+2022-11-17 15:50:55.447287: I Analyzed pair: (0.1518, 0.15173): False
+2022-11-17 15:50:55.447352: I Analyzed pair: (0.15173, 0.15214): True
+2022-11-17 15:50:55.447510: I Analyzed pair: (0.15214, 0.15273): True
+2022-11-17 15:50:55.447584: I Analyzed pair: (0.15273, 0.15171): False
+2022-11-17 15:50:55.447648: I Analyzed pair: (0.15171, 0.15336): True
+2022-11-17 15:50:55.447711: I Analyzed pair: (0.15336, 0.15281): False
+2022-11-17 15:50:55.447759: I Check List: [True, False, False, True, False, True, True, False, True, False]
+2022-11-17 15:50:56.808941: I Epoch 100/100 loss 0.08014
+2022-11-17 15:50:56.809061: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:57.159484: I Loading parameters
+2022-11-17 15:50:57.159899: I Parameter intermediate_dim set to 100
+2022-11-17 15:50:57.160005: I Parameter latent_dim set to 50
+2022-11-17 15:50:57.160047: I Parameter reg_lambda set to 0
+2022-11-17 15:50:57.160086: I Parameter lr set to 0.01
+2022-11-17 15:50:57.160122: I Parameter dropout_pkeep set to 0.8
+2022-11-17 15:50:58.840486: I Epoch 1/100 loss 972.98645
+2022-11-17 15:50:58.840623: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:50:58.927984: I ******************************************
+2022-11-17 15:51:00.287592: I Epoch 2/100 loss 242.83009
+2022-11-17 15:51:00.287724: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:00.376954: I ******************************************
+2022-11-17 15:51:01.675989: I Epoch 3/100 loss 105.86562
+2022-11-17 15:51:01.676130: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:01.769315: I ******************************************
+2022-11-17 15:51:03.050178: I Epoch 4/100 loss 57.40934
+2022-11-17 15:51:03.050322: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:03.143714: I ******************************************
+2022-11-17 15:51:04.415431: I Epoch 5/100 loss 36.03599
+2022-11-17 15:51:04.415566: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:04.506064: I ******************************************
+2022-11-17 15:51:05.780225: I Epoch 6/100 loss 24.96318
+2022-11-17 15:51:05.780358: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:05.869883: I ******************************************
+2022-11-17 15:51:07.205615: I Epoch 7/100 loss 18.28758
+2022-11-17 15:51:07.205776: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:07.304071: I ******************************************
+2022-11-17 15:51:08.676199: I Epoch 8/100 loss 13.95788
+2022-11-17 15:51:08.676333: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:10.053821: I Epoch 9/100 loss 11.01103
+2022-11-17 15:51:10.053956: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:10.144539: I ******************************************
+2022-11-17 15:51:11.512276: I Epoch 10/100 loss 8.91315
+2022-11-17 15:51:11.512402: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:12.913331: I Epoch 11/100 loss 7.35905
+2022-11-17 15:51:12.913458: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:13.013533: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:13.013849: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:13.013933: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:13.014088: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:13.014167: I Analyzed pair: (0.08216, 0.08109): False
+2022-11-17 15:51:13.014310: I Analyzed pair: (0.08109, 0.06804): False
+2022-11-17 15:51:13.014385: I Analyzed pair: (0.06804, 0.04606): False
+2022-11-17 15:51:13.014453: I Analyzed pair: (0.04606, 0.03215): False
+2022-11-17 15:51:13.014594: I Analyzed pair: (0.03215, 0.01986): False
+2022-11-17 15:51:13.014671: I Analyzed pair: (0.01986, 0.01018): False
+2022-11-17 15:51:13.014834: I Check List: [True, True, False, True, False, False, False, False, False, False]
+2022-11-17 15:51:14.307183: I Epoch 12/100 loss 6.17546
+2022-11-17 15:51:14.307316: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:14.402819: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:14.403113: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:14.403249: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:14.403375: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:14.403498: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:14.403620: I Analyzed pair: (0.08216, 0.08109): False
+2022-11-17 15:51:14.403741: I Analyzed pair: (0.08109, 0.06804): False
+2022-11-17 15:51:14.403862: I Analyzed pair: (0.06804, 0.04606): False
+2022-11-17 15:51:14.404001: I Analyzed pair: (0.04606, 0.03215): False
+2022-11-17 15:51:14.404125: I Analyzed pair: (0.03215, 0.01986): False
+2022-11-17 15:51:14.404230: I Check List: [False, True, True, False, True, False, False, False, False, False]
+2022-11-17 15:51:15.690852: I Epoch 13/100 loss 5.25741
+2022-11-17 15:51:15.690990: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:15.780891: I ******************************************
+2022-11-17 15:51:15.788589: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:15.788888: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:15.788968: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:15.789122: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:15.789198: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:15.789342: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:15.789416: I Analyzed pair: (0.08216, 0.08109): False
+2022-11-17 15:51:15.789557: I Analyzed pair: (0.08109, 0.06804): False
+2022-11-17 15:51:15.789703: I Analyzed pair: (0.06804, 0.04606): False
+2022-11-17 15:51:15.789847: I Analyzed pair: (0.04606, 0.03215): False
+2022-11-17 15:51:15.789975: I Check List: [False, False, True, True, False, True, False, False, False, False]
+2022-11-17 15:51:17.053582: I Epoch 14/100 loss 4.52881
+2022-11-17 15:51:17.053713: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:17.158133: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:17.158447: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:17.158534: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:17.158695: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:17.158779: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:17.158934: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:17.159094: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:17.159175: I Analyzed pair: (0.08216, 0.08109): False
+2022-11-17 15:51:17.159325: I Analyzed pair: (0.08109, 0.06804): False
+2022-11-17 15:51:17.159480: I Analyzed pair: (0.06804, 0.04606): False
+2022-11-17 15:51:17.159618: I Check List: [True, False, False, True, True, False, True, False, False, False]
+2022-11-17 15:51:18.438562: I Epoch 15/100 loss 3.93909
+2022-11-17 15:51:18.438693: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:18.532558: I ******************************************
+2022-11-17 15:51:18.540136: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:18.540408: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:18.540543: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:18.540707: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:18.540786: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:18.540931: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:18.541080: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:18.541228: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:18.541305: I Analyzed pair: (0.08216, 0.08109): False
+2022-11-17 15:51:18.541446: I Analyzed pair: (0.08109, 0.06804): False
+2022-11-17 15:51:18.541575: I Check List: [False, True, False, False, True, True, False, True, False, False]
+2022-11-17 15:51:19.806382: I Epoch 16/100 loss 3.45630
+2022-11-17 15:51:19.806512: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:19.896796: I ******************************************
+2022-11-17 15:51:19.904340: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:19.904601: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:19.904737: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:19.904894: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:19.904971: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:19.905114: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:19.905261: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:19.905406: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:19.905551: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:19.905695: I Analyzed pair: (0.08216, 0.08109): False
+2022-11-17 15:51:19.905823: I Check List: [False, False, True, False, False, True, True, False, True, False]
+2022-11-17 15:51:21.168286: I Epoch 17/100 loss 3.05732
+2022-11-17 15:51:21.168413: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:21.260338: I ******************************************
+2022-11-17 15:51:21.267554: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:21.267829: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:21.267907: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:21.267998: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:21.268068: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:21.268134: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:21.268200: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:21.268265: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:21.268387: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:21.268548: I Analyzed pair: (0.08074, 0.08216): True
+2022-11-17 15:51:21.268606: I Check List: [False, False, False, True, False, False, True, True, False, True]
+2022-11-17 15:51:22.537910: I Epoch 18/100 loss 2.72190
+2022-11-17 15:51:22.538036: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:22.628382: I ******************************************
+2022-11-17 15:51:22.635549: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:22.635858: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:22.636133: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:22.636368: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:22.636615: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:22.636838: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:22.637046: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:22.637254: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:22.637458: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:22.637662: I Analyzed pair: (0.08352, 0.08074): False
+2022-11-17 15:51:22.637832: I Check List: [False, False, False, False, True, False, False, True, True, False]
+2022-11-17 15:51:23.978290: I Epoch 19/100 loss 2.43811
+2022-11-17 15:51:23.978422: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:24.077646: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:24.077952: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:24.078119: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:24.078197: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:24.078267: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:24.078335: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:24.078402: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:24.078546: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:24.078694: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:24.078841: I Analyzed pair: (0.07714, 0.08352): True
+2022-11-17 15:51:24.078971: I Check List: [True, False, False, False, False, True, False, False, True, True]
+2022-11-17 15:51:25.349749: I Epoch 20/100 loss 2.19632
+2022-11-17 15:51:25.349869: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:25.453288: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:25.453601: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:25.453682: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:25.453752: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:25.453821: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:25.453972: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:25.454121: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:25.454269: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:25.454416: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:25.454563: I Analyzed pair: (0.07527, 0.07714): True
+2022-11-17 15:51:25.454695: I Check List: [True, True, False, False, False, False, True, False, False, True]
+2022-11-17 15:51:26.759867: I Epoch 21/100 loss 1.98935
+2022-11-17 15:51:26.760011: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:26.852027: I ******************************************
+2022-11-17 15:51:26.859478: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:26.859680: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:26.859790: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:26.859924: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:26.860065: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:26.860193: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:26.860318: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:26.860442: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:26.860566: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:26.860690: I Analyzed pair: (0.08137, 0.07527): False
+2022-11-17 15:51:26.860798: I Check List: [False, True, True, False, False, False, False, True, False, False]
+2022-11-17 15:51:28.149212: I Epoch 22/100 loss 1.81046
+2022-11-17 15:51:28.149337: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:28.240611: I ******************************************
+2022-11-17 15:51:28.247741: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:28.247953: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:28.248063: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:28.248163: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:28.248269: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:28.248368: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:28.248467: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:28.248563: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:28.248661: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:28.248730: I Analyzed pair: (0.08446, 0.08137): False
+2022-11-17 15:51:28.248822: I Check List: [False, False, True, True, False, False, False, False, True, False]
+2022-11-17 15:51:29.527051: I Epoch 23/100 loss 1.65452
+2022-11-17 15:51:29.527187: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:29.618383: I ******************************************
+2022-11-17 15:51:29.625977: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:29.626248: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:29.626327: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:29.626449: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:29.626604: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:29.626751: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:29.626898: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:29.627049: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:29.627195: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:29.627269: I Analyzed pair: (0.08443, 0.08446): True
+2022-11-17 15:51:29.627397: I Check List: [False, False, False, True, True, False, False, False, False, True]
+2022-11-17 15:51:30.890509: I Epoch 24/100 loss 1.51773
+2022-11-17 15:51:30.890644: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:30.981680: I ******************************************
+2022-11-17 15:51:30.988797: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:30.989063: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:30.989143: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:30.989270: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:30.989344: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:30.989413: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:30.989566: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:30.989716: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:30.989866: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:30.989940: I Analyzed pair: (0.08547, 0.08443): False
+2022-11-17 15:51:30.989991: I Check List: [False, False, False, False, True, True, False, False, False, False]
+2022-11-17 15:51:32.326385: I Epoch 25/100 loss 1.39690
+2022-11-17 15:51:32.326514: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:32.426083: I ******************************************
+2022-11-17 15:51:32.435526: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:32.435847: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:32.435935: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:32.436119: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:32.436205: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:32.436357: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:32.436442: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:32.436590: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:32.436748: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:32.436903: I Analyzed pair: (0.08713, 0.08547): False
+2022-11-17 15:51:32.437042: I Check List: [False, False, False, False, False, True, True, False, False, False]
+2022-11-17 15:51:33.750021: I Epoch 26/100 loss 1.28976
+2022-11-17 15:51:33.750141: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:33.850818: I ******************************************
+2022-11-17 15:51:33.860004: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:33.860285: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:33.860372: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:33.860448: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:33.860523: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:33.860597: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:33.860740: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:33.860820: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:33.860997: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:33.861166: I Analyzed pair: (0.08782, 0.08713): False
+2022-11-17 15:51:33.861314: I Check List: [False, False, False, False, False, False, True, True, False, False]
+2022-11-17 15:51:35.159877: I Epoch 27/100 loss 1.19450
+2022-11-17 15:51:35.159998: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:35.260756: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:35.261019: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:35.261098: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:35.261174: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:35.261243: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:35.261366: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:35.261438: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:35.261594: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:35.261744: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:35.261893: I Analyzed pair: (0.08955, 0.08782): False
+2022-11-17 15:51:35.262023: I Check List: [True, False, False, False, False, False, False, True, True, False]
+2022-11-17 15:51:36.537768: I Epoch 28/100 loss 1.10958
+2022-11-17 15:51:36.537881: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:36.633632: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:36.633908: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:36.633989: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:36.634112: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:36.634186: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:36.634259: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:36.634324: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:36.634473: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:36.634621: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:36.634768: I Analyzed pair: (0.08912, 0.08955): True
+2022-11-17 15:51:36.634897: I Check List: [True, True, False, False, False, False, False, False, True, True]
+2022-11-17 15:51:37.996722: I Epoch 29/100 loss 1.03300
+2022-11-17 15:51:37.996841: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:38.082908: I ******************************************
+2022-11-17 15:51:38.090392: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:38.090671: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:38.090752: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:38.090822: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:38.090890: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:38.090957: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:38.091025: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:38.091091: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:38.091158: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:38.091223: I Analyzed pair: (0.08875, 0.08912): True
+2022-11-17 15:51:38.091273: I Check List: [False, True, True, False, False, False, False, False, False, True]
+2022-11-17 15:51:39.356573: I Epoch 30/100 loss 0.96398
+2022-11-17 15:51:39.356694: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:39.447193: I ******************************************
+2022-11-17 15:51:39.454408: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:39.454679: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:39.454760: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:39.454830: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:39.454953: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:39.455026: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:39.455178: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:39.455253: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:39.455395: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:39.455542: I Analyzed pair: (0.09212, 0.08875): False
+2022-11-17 15:51:39.455672: I Check List: [False, False, True, True, False, False, False, False, False, False]
+2022-11-17 15:51:40.728810: I Epoch 31/100 loss 0.90169
+2022-11-17 15:51:40.728919: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:40.817478: I ******************************************
+2022-11-17 15:51:40.825175: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:40.825453: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:40.825617: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:40.825766: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:40.825913: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:40.826057: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:40.826200: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:40.826343: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:40.826486: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:40.826616: I Analyzed pair: (0.09283, 0.09212): False
+2022-11-17 15:51:40.826739: I Check List: [False, False, False, True, True, False, False, False, False, False]
+2022-11-17 15:51:42.094525: I Epoch 32/100 loss 0.84524
+2022-11-17 15:51:42.094634: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:42.185971: I ******************************************
+2022-11-17 15:51:42.193374: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:42.193625: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:42.193705: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:42.193775: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:42.193844: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:42.193912: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:42.193979: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:42.194046: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:42.194113: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:42.194179: I Analyzed pair: (0.09479, 0.09283): False
+2022-11-17 15:51:42.194230: I Check List: [False, False, False, False, True, True, False, False, False, False]
+2022-11-17 15:51:43.478340: I Epoch 33/100 loss 0.79392
+2022-11-17 15:51:43.478456: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:43.570339: I ******************************************
+2022-11-17 15:51:43.577816: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:43.578116: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:43.578197: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:43.578267: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:43.578336: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:43.578403: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:43.578470: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:43.578625: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:43.578775: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:43.578924: I Analyzed pair: (0.09659, 0.09479): False
+2022-11-17 15:51:43.579055: I Check List: [False, False, False, False, False, True, True, False, False, False]
+2022-11-17 15:51:44.843155: I Epoch 34/100 loss 0.74709
+2022-11-17 15:51:44.843267: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:44.944562: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:44.944867: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:44.944950: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:44.945021: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:44.945091: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:44.945253: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:44.945405: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:44.945553: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:44.945700: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:44.945847: I Analyzed pair: (0.09873, 0.09659): False
+2022-11-17 15:51:44.945976: I Check List: [True, False, False, False, False, False, True, True, False, False]
+2022-11-17 15:51:46.215670: I Epoch 35/100 loss 0.70424
+2022-11-17 15:51:46.215779: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:46.315263: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:46.315535: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:46.315664: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:46.315818: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:46.315977: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:46.316130: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:46.316212: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:46.316354: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:46.316431: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:46.316569: I Analyzed pair: (0.0995, 0.09873): False
+2022-11-17 15:51:46.316698: I Check List: [True, True, False, False, False, False, False, True, True, False]
+2022-11-17 15:51:47.595049: I Epoch 36/100 loss 0.66509
+2022-11-17 15:51:47.595161: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:47.697548: I ******************************************
+2022-11-17 15:51:47.706200: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:47.706542: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:47.706642: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:47.706731: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:47.706818: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:47.706906: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:47.706992: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:47.707176: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:47.707347: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:47.707511: I Analyzed pair: (0.09904, 0.0995): True
+2022-11-17 15:51:47.707654: I Check List: [False, True, True, False, False, False, False, False, True, True]
+2022-11-17 15:51:49.018523: I Epoch 37/100 loss 0.62898
+2022-11-17 15:51:49.018646: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:49.124138: I ******************************************
+2022-11-17 15:51:49.133970: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:49.134273: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:49.134469: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:49.134654: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:49.134820: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:49.134957: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:49.135025: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:49.135169: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:49.135312: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:49.135445: I Analyzed pair: (0.09896, 0.09904): True
+2022-11-17 15:51:49.135562: I Check List: [False, False, True, True, False, False, False, False, False, True]
+2022-11-17 15:51:50.610507: I Epoch 38/100 loss 0.59571
+2022-11-17 15:51:50.610624: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:50.707647: I ******************************************
+2022-11-17 15:51:50.715987: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:50.716220: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:50.716298: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:50.716371: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:50.716490: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:50.716561: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:50.716711: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:50.716847: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:50.716975: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:50.717044: I Analyzed pair: (0.10016, 0.09896): False
+2022-11-17 15:51:50.717153: I Check List: [False, False, False, True, True, False, False, False, False, False]
+2022-11-17 15:51:52.093692: I Epoch 39/100 loss 0.56498
+2022-11-17 15:51:52.093804: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:52.187108: I ******************************************
+2022-11-17 15:51:52.195356: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:51:52.195565: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:52.195681: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:52.195818: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:52.195966: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:52.196097: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:52.196225: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:52.196350: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:52.196474: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:52.196599: I Analyzed pair: (0.10307, 0.10016): False
+2022-11-17 15:51:52.196707: I Check List: [False, False, False, False, True, True, False, False, False, False]
+2022-11-17 15:51:53.508172: I Epoch 40/100 loss 0.53659
+2022-11-17 15:51:53.508291: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:53.601519: I ******************************************
+2022-11-17 15:51:53.609998: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:51:53.610235: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:51:53.610355: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:53.610495: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:53.610625: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:53.610752: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:53.610878: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:53.611002: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:53.611126: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:53.611229: I Analyzed pair: (0.10391, 0.10307): False
+2022-11-17 15:51:53.611318: I Check List: [False, False, False, False, False, True, True, False, False, False]
+2022-11-17 15:51:54.964832: I Epoch 41/100 loss 0.51030
+2022-11-17 15:51:54.964955: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:55.059720: I ******************************************
+2022-11-17 15:51:55.069073: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:51:55.069345: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:51:55.069480: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:51:55.069558: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:55.069710: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:55.069788: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:55.069934: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:55.070010: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:55.070154: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:55.070306: I Analyzed pair: (0.10593, 0.10391): False
+2022-11-17 15:51:55.070441: I Check List: [False, False, False, False, False, False, True, True, False, False]
+2022-11-17 15:51:56.449704: I Epoch 42/100 loss 0.48585
+2022-11-17 15:51:56.449812: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:56.543815: I ******************************************
+2022-11-17 15:51:56.552313: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:51:56.552582: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:51:56.552708: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:51:56.552853: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:51:56.552990: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:56.553127: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:56.553262: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:56.553395: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:56.553536: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:56.553672: I Analyzed pair: (0.10812, 0.10593): False
+2022-11-17 15:51:56.553732: I Check List: [False, False, False, False, False, False, False, True, True, False]
+2022-11-17 15:51:57.898650: I Epoch 43/100 loss 0.46315
+2022-11-17 15:51:57.898770: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:57.988129: I ******************************************
+2022-11-17 15:51:58.002529: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:51:58.003055: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:51:58.003249: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:51:58.003458: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:51:58.003656: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:51:58.003852: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:58.004103: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:58.004294: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:58.004487: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:58.004684: I Analyzed pair: (0.10764, 0.10812): True
+2022-11-17 15:51:58.004851: I Check List: [False, False, False, False, False, False, False, False, True, True]
+2022-11-17 15:51:59.347472: I Epoch 44/100 loss 0.44206
+2022-11-17 15:51:59.347588: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:51:59.440284: I ******************************************
+2022-11-17 15:51:59.447568: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:51:59.447873: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:51:59.447961: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:51:59.448033: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:51:59.448104: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:51:59.448173: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:51:59.448242: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:51:59.448309: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:51:59.448377: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:51:59.448444: I Analyzed pair: (0.10744, 0.10764): True
+2022-11-17 15:51:59.448496: I Check List: [False, False, False, False, False, False, False, False, False, True]
+2022-11-17 15:52:00.779698: I Epoch 45/100 loss 0.42233
+2022-11-17 15:52:00.779811: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:00.878063: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:00.878373: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:00.878535: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:00.878614: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:00.878760: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:52:00.878908: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:52:00.879057: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:52:00.879205: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:52:00.879353: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:52:00.879500: I Analyzed pair: (0.10875, 0.10744): False
+2022-11-17 15:52:00.879635: I Check List: [True, False, False, False, False, False, False, False, False, False]
+2022-11-17 15:52:02.257099: I Epoch 46/100 loss 0.40394
+2022-11-17 15:52:02.257224: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:02.357012: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:02.357351: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:02.357495: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:02.357628: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:02.357757: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:02.357882: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:52:02.358005: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:52:02.358130: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:52:02.358255: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:52:02.358379: I Analyzed pair: (0.1104, 0.10875): False
+2022-11-17 15:52:02.358487: I Check List: [False, True, False, False, False, False, False, False, False, False]
+2022-11-17 15:52:03.712122: I Epoch 47/100 loss 0.38673
+2022-11-17 15:52:03.712234: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:03.815339: I ******************************************
+2022-11-17 15:52:03.823006: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:03.823344: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:03.823506: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:03.823659: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:03.823810: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:03.823982: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:03.824134: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:52:03.824212: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:52:03.824353: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:52:03.824501: I Analyzed pair: (0.11188, 0.1104): False
+2022-11-17 15:52:03.824631: I Check List: [False, False, True, False, False, False, False, False, False, False]
+2022-11-17 15:52:05.309694: I Epoch 48/100 loss 0.37059
+2022-11-17 15:52:05.309812: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:05.402524: I ******************************************
+2022-11-17 15:52:05.410269: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:05.410503: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:05.410620: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:05.410763: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:05.410835: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:05.410966: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:05.411036: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:05.411246: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:52:05.411321: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:52:05.411446: I Analyzed pair: (0.11345, 0.11188): False
+2022-11-17 15:52:05.411554: I Check List: [False, False, False, True, False, False, False, False, False, False]
+2022-11-17 15:52:06.835222: I Epoch 49/100 loss 0.35543
+2022-11-17 15:52:06.835326: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:06.926840: I ******************************************
+2022-11-17 15:52:06.935157: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:06.935370: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:06.935478: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:06.935601: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:06.935719: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:06.935836: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:06.935971: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:06.936090: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:06.936206: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:52:06.936323: I Analyzed pair: (0.1142, 0.11345): False
+2022-11-17 15:52:06.936420: I Check List: [False, False, False, False, True, False, False, False, False, False]
+2022-11-17 15:52:08.311680: I Epoch 50/100 loss 0.34120
+2022-11-17 15:52:08.311809: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:08.405001: I ******************************************
+2022-11-17 15:52:08.413593: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:08.413881: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:08.413969: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:08.414092: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:08.414168: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:08.414312: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:08.414455: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:08.414594: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:08.414670: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:08.414738: I Analyzed pair: (0.11527, 0.1142): False
+2022-11-17 15:52:08.414875: I Check List: [False, False, False, False, False, True, False, False, False, False]
+2022-11-17 15:52:09.739383: I Epoch 51/100 loss 0.32781
+2022-11-17 15:52:09.739502: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:09.840096: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:09.840403: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:09.840559: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:09.840696: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:09.840832: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:09.840959: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:09.841085: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:09.841209: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:09.841333: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:09.841457: I Analyzed pair: (0.11564, 0.11527): False
+2022-11-17 15:52:09.841563: I Check List: [True, False, False, False, False, False, True, False, False, False]
+2022-11-17 15:52:11.184289: I Epoch 52/100 loss 0.31522
+2022-11-17 15:52:11.184410: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:11.278891: I ******************************************
+2022-11-17 15:52:11.288427: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:11.288685: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:11.288837: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:11.288976: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:11.289080: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:11.289225: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:11.289331: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:11.289539: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:11.289810: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:11.289984: I Analyzed pair: (0.11582, 0.11564): False
+2022-11-17 15:52:11.290041: I Check List: [False, True, False, False, False, False, False, True, False, False]
+2022-11-17 15:52:12.629459: I Epoch 53/100 loss 0.30338
+2022-11-17 15:52:12.629565: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:12.723274: I ******************************************
+2022-11-17 15:52:12.730949: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:12.731172: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:12.731286: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:12.731360: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:12.731430: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:12.731568: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:12.731683: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:12.731796: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:12.731907: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:12.732030: I Analyzed pair: (0.1169, 0.11582): False
+2022-11-17 15:52:12.732123: I Check List: [False, False, True, False, False, False, False, False, True, False]
+2022-11-17 15:52:14.041117: I Epoch 54/100 loss 0.29216
+2022-11-17 15:52:14.041229: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:14.143427: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:14.143635: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:14.143747: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:14.143858: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:14.143973: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:14.144075: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:14.144175: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:14.144273: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:14.144371: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:14.144467: I Analyzed pair: (0.11623, 0.1169): True
+2022-11-17 15:52:14.144546: I Check List: [True, False, False, True, False, False, False, False, False, True]
+2022-11-17 15:52:15.480645: I Epoch 55/100 loss 0.28138
+2022-11-17 15:52:15.480777: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:15.587140: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:15.587375: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:15.587491: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:15.587631: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:15.587770: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:15.587910: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:15.587993: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:15.588127: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:15.588254: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:15.588380: I Analyzed pair: (0.11664, 0.11623): False
+2022-11-17 15:52:15.588488: I Check List: [False, True, False, False, True, False, False, False, False, False]
+2022-11-17 15:52:16.871879: I Epoch 56/100 loss 0.27133
+2022-11-17 15:52:16.872005: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:16.965406: I ******************************************
+2022-11-17 15:52:16.972794: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:16.973010: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:16.973084: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:16.973153: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:16.973221: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:16.973344: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:16.973412: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:16.973553: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:16.973621: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:16.973688: I Analyzed pair: (0.1179, 0.11664): False
+2022-11-17 15:52:16.973740: I Check List: [False, False, True, False, False, True, False, False, False, False]
+2022-11-17 15:52:18.242191: I Epoch 57/100 loss 0.26189
+2022-11-17 15:52:18.242311: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:18.341542: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:18.341765: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:18.341877: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:18.341948: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:18.342081: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:18.342151: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:18.342276: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:18.342399: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:18.342521: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:18.342590: I Analyzed pair: (0.11871, 0.1179): False
+2022-11-17 15:52:18.342696: I Check List: [True, False, False, True, False, False, True, False, False, False]
+2022-11-17 15:52:19.617058: I Epoch 58/100 loss 0.25277
+2022-11-17 15:52:19.617171: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:19.717613: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:19.717823: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:19.717934: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:19.718013: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:19.718147: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:19.718216: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:19.718283: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:19.718408: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:19.718531: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:19.718653: I Analyzed pair: (0.11892, 0.11871): False
+2022-11-17 15:52:19.718757: I Check List: [False, True, False, False, True, False, False, True, False, False]
+2022-11-17 15:52:21.085261: I Epoch 59/100 loss 0.24414
+2022-11-17 15:52:21.085370: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:21.178821: I ******************************************
+2022-11-17 15:52:21.186046: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:21.186261: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:21.186336: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:21.186444: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:21.186514: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:21.186647: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:21.186774: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:21.186895: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:21.187016: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:21.187139: I Analyzed pair: (0.11952, 0.11892): False
+2022-11-17 15:52:21.187247: I Check List: [False, False, True, False, False, True, False, False, True, False]
+2022-11-17 15:52:22.450394: I Epoch 60/100 loss 0.23604
+2022-11-17 15:52:22.450508: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:22.542819: I ******************************************
+2022-11-17 15:52:22.550477: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:22.550712: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:22.550785: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:22.550855: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:22.550969: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:22.551038: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:22.551171: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:22.551302: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:22.551424: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:22.551546: I Analyzed pair: (0.11864, 0.11952): True
+2022-11-17 15:52:22.551652: I Check List: [False, False, False, True, False, False, True, False, False, True]
+2022-11-17 15:52:23.845478: I Epoch 61/100 loss 0.22826
+2022-11-17 15:52:23.845592: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:23.937856: I ******************************************
+2022-11-17 15:52:23.945213: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:23.945437: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:23.945510: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:23.945618: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:23.945688: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:23.945828: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:23.945898: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:23.945966: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:23.946097: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:23.946197: I Analyzed pair: (0.11957, 0.11864): False
+2022-11-17 15:52:23.946310: I Check List: [False, False, False, False, True, False, False, True, False, False]
+2022-11-17 15:52:25.222881: I Epoch 62/100 loss 0.22086
+2022-11-17 15:52:25.222989: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:25.312498: I ******************************************
+2022-11-17 15:52:25.319961: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:25.320206: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:25.320342: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:25.320410: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:25.320535: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:25.320602: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:25.320723: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:25.320843: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:25.320961: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:25.321082: I Analyzed pair: (0.12035, 0.11957): False
+2022-11-17 15:52:25.321185: I Check List: [False, False, False, False, False, True, False, False, True, False]
+2022-11-17 15:52:26.590405: I Epoch 63/100 loss 0.21387
+2022-11-17 15:52:26.590524: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:26.685656: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:26.685811: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:26.685883: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:26.686014: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:26.686118: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:26.686249: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:26.686317: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:26.686438: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:26.686559: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:26.686679: I Analyzed pair: (0.11932, 0.12035): True
+2022-11-17 15:52:26.686784: I Check List: [True, False, False, False, False, False, True, False, False, True]
+2022-11-17 15:52:27.954810: I Epoch 64/100 loss 0.20716
+2022-11-17 15:52:27.954922: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:28.044972: I ******************************************
+2022-11-17 15:52:28.053365: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:28.053585: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:28.053664: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:28.053777: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:28.053917: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:28.053991: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:28.054119: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:28.054247: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:28.054375: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:28.054503: I Analyzed pair: (0.12, 0.11932): False
+2022-11-17 15:52:28.054613: I Check List: [False, True, False, False, False, False, False, True, False, False]
+2022-11-17 15:52:29.336852: I Epoch 65/100 loss 0.20074
+2022-11-17 15:52:29.336962: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:29.431255: I ******************************************
+2022-11-17 15:52:29.439005: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:29.439159: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:29.439232: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:29.439363: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:29.439468: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:29.439536: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:29.439673: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:29.439796: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:29.439921: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:29.439998: I Analyzed pair: (0.12068, 0.12): False
+2022-11-17 15:52:29.440107: I Check List: [False, False, True, False, False, False, False, False, True, False]
+2022-11-17 15:52:30.703382: I Epoch 66/100 loss 0.19465
+2022-11-17 15:52:30.703498: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:30.792955: I ******************************************
+2022-11-17 15:52:30.801076: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:30.801282: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:30.801354: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:30.801459: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:30.801526: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:30.801656: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:30.801782: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:30.801848: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:30.801967: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:30.802088: I Analyzed pair: (0.12057, 0.12068): True
+2022-11-17 15:52:30.802191: I Check List: [False, False, False, True, False, False, False, False, False, True]
+2022-11-17 15:52:32.077799: I Epoch 67/100 loss 0.18882
+2022-11-17 15:52:32.077915: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:32.168897: I ******************************************
+2022-11-17 15:52:32.176385: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:32.176608: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:32.176684: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:32.176791: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:32.176860: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:32.176989: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:32.177057: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:32.177180: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:32.177301: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:32.177424: I Analyzed pair: (0.12062, 0.12057): False
+2022-11-17 15:52:32.177529: I Check List: [False, False, False, False, True, False, False, False, False, False]
+2022-11-17 15:52:33.430676: I Epoch 68/100 loss 0.18323
+2022-11-17 15:52:33.430788: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:33.523245: I ******************************************
+2022-11-17 15:52:33.530653: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:33.530818: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:33.530890: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:33.531023: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:33.531093: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:33.531198: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:33.531328: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:33.531450: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:33.531573: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:33.531692: I Analyzed pair: (0.12104, 0.12062): False
+2022-11-17 15:52:33.531795: I Check List: [False, False, False, False, False, True, False, False, False, False]
+2022-11-17 15:52:34.790865: I Epoch 69/100 loss 0.17794
+2022-11-17 15:52:34.790973: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:34.888364: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:34.888575: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:34.888649: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:34.888755: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:34.888824: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:34.889009: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:34.889077: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:34.889201: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:34.889321: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:34.889441: I Analyzed pair: (0.12127, 0.12104): False
+2022-11-17 15:52:34.889544: I Check List: [True, False, False, False, False, False, True, False, False, False]
+2022-11-17 15:52:36.283024: I Epoch 70/100 loss 0.17289
+2022-11-17 15:52:36.283133: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:36.373702: I ******************************************
+2022-11-17 15:52:36.380865: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:36.381069: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:36.381179: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:36.381311: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:36.381434: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:36.381555: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:36.381673: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:36.381924: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:36.382131: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:36.382322: I Analyzed pair: (0.12151, 0.12127): False
+2022-11-17 15:52:36.382475: I Check List: [False, True, False, False, False, False, False, True, False, False]
+2022-11-17 15:52:37.714986: I Epoch 71/100 loss 0.16793
+2022-11-17 15:52:37.715124: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:37.816129: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:37.816363: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:37.816442: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:37.816517: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:37.816590: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:37.816661: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:37.816785: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:37.816946: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:37.817096: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:37.817168: I Analyzed pair: (0.12182, 0.12151): False
+2022-11-17 15:52:37.817223: I Check List: [True, False, True, False, False, False, False, False, True, False]
+2022-11-17 15:52:39.116732: I Epoch 72/100 loss 0.16321
+2022-11-17 15:52:39.116839: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:39.213476: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:39.213685: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:39.213796: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:39.213929: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:39.214074: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:39.214141: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:39.214273: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:39.214340: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:39.214472: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:39.214598: I Analyzed pair: (0.12154, 0.12182): True
+2022-11-17 15:52:39.214708: I Check List: [False, True, False, True, False, False, False, False, False, True]
+2022-11-17 15:52:40.503417: I Epoch 73/100 loss 0.15877
+2022-11-17 15:52:40.503528: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:40.605129: I ******************************************
+2022-11-17 15:52:40.615708: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:40.615950: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:40.616076: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:40.616153: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:40.616294: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:40.616368: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:40.616498: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:40.616579: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:40.616759: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:40.616895: I Analyzed pair: (0.12236, 0.12154): False
+2022-11-17 15:52:40.617006: I Check List: [False, False, True, False, True, False, False, False, False, False]
+2022-11-17 15:52:41.904549: I Epoch 74/100 loss 0.15443
+2022-11-17 15:52:41.904658: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:41.995825: I ******************************************
+2022-11-17 15:52:42.003490: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:42.003705: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:42.003815: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:42.003963: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:42.004099: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:42.004168: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:42.004298: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:42.004423: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:42.004544: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:42.004666: I Analyzed pair: (0.12284, 0.12236): False
+2022-11-17 15:52:42.004776: I Check List: [False, False, False, True, False, True, False, False, False, False]
+2022-11-17 15:52:43.270185: I Epoch 75/100 loss 0.15018
+2022-11-17 15:52:43.270299: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:43.368587: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:43.368810: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:43.368884: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:43.368993: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:43.369062: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:43.369193: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:43.369261: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:43.369384: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:43.369506: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:43.369626: I Analyzed pair: (0.12301, 0.12284): False
+2022-11-17 15:52:43.369732: I Check List: [True, False, False, False, True, False, True, False, False, False]
+2022-11-17 15:52:44.647666: I Epoch 76/100 loss 0.14623
+2022-11-17 15:52:44.647786: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:44.743829: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:44.744062: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:44.744166: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:44.744286: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:44.744398: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:44.744509: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:44.744619: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:44.744735: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:44.744843: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:44.744950: I Analyzed pair: (0.12364, 0.12301): False
+2022-11-17 15:52:44.745040: I Check List: [True, True, False, False, False, True, False, True, False, False]
+2022-11-17 15:52:46.038721: I Epoch 77/100 loss 0.14243
+2022-11-17 15:52:46.038832: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:46.128609: I ******************************************
+2022-11-17 15:52:46.136081: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:46.136288: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:46.136400: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:46.136476: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:46.136608: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:46.136677: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:46.136802: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:46.136870: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:46.136935: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:46.137060: I Analyzed pair: (0.1247, 0.12364): False
+2022-11-17 15:52:46.137165: I Check List: [False, True, True, False, False, False, True, False, True, False]
+2022-11-17 15:52:47.422380: I Epoch 78/100 loss 0.13871
+2022-11-17 15:52:47.422491: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:47.522261: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:47.522557: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:47.522639: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:47.522710: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:47.522862: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:47.522940: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:47.523084: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:47.523160: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:47.523300: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:47.523445: I Analyzed pair: (0.12395, 0.1247): True
+2022-11-17 15:52:47.523504: I Check List: [True, False, True, True, False, False, False, True, False, True]
+2022-11-17 15:52:48.803196: I Epoch 79/100 loss 0.13514
+2022-11-17 15:52:48.803309: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:48.893830: I ******************************************
+2022-11-17 15:52:48.901316: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:48.901620: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:48.901702: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:48.901859: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:48.901937: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:48.902007: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:48.902152: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:48.902228: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:48.902297: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:48.902453: I Analyzed pair: (0.12632, 0.12395): False
+2022-11-17 15:52:48.902584: I Check List: [False, True, False, True, True, False, False, False, True, False]
+2022-11-17 15:52:50.178380: I Epoch 80/100 loss 0.13176
+2022-11-17 15:52:50.178498: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:50.269108: I ******************************************
+2022-11-17 15:52:50.276677: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:50.276996: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:50.277078: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:50.277148: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:50.277305: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:50.277383: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:50.277529: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:50.277605: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:50.277745: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:50.277894: I Analyzed pair: (0.12475, 0.12632): True
+2022-11-17 15:52:50.278024: I Check List: [False, False, True, False, True, True, False, False, False, True]
+2022-11-17 15:52:51.560875: I Epoch 81/100 loss 0.12842
+2022-11-17 15:52:51.560985: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:51.651766: I ******************************************
+2022-11-17 15:52:51.659135: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:52:51.659402: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:51.659538: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:51.659698: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:51.659850: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:51.660008: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:51.660160: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:51.660237: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:51.660376: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:51.660521: I Analyzed pair: (0.12607, 0.12475): False
+2022-11-17 15:52:51.660650: I Check List: [False, False, False, True, False, True, True, False, False, False]
+2022-11-17 15:52:53.031820: I Epoch 82/100 loss 0.12525
+2022-11-17 15:52:53.031930: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:53.127828: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:52:53.128053: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:52:53.128128: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:53.128234: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:53.128304: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:53.128437: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:53.128504: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:53.128627: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:53.128748: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:53.128869: I Analyzed pair: (0.12656, 0.12607): False
+2022-11-17 15:52:53.128973: I Check List: [True, False, False, False, True, False, True, True, False, False]
+2022-11-17 15:52:54.404274: I Epoch 83/100 loss 0.12223
+2022-11-17 15:52:54.404384: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:54.493137: I ******************************************
+2022-11-17 15:52:54.500084: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:52:54.500282: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:52:54.500479: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:52:54.500579: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:54.500676: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:54.500773: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:54.500869: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:54.500964: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:54.501059: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:54.501153: I Analyzed pair: (0.12765, 0.12656): False
+2022-11-17 15:52:54.501231: I Check List: [False, True, False, False, False, True, False, True, True, False]
+2022-11-17 15:52:55.765124: I Epoch 84/100 loss 0.11923
+2022-11-17 15:52:55.765235: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:55.854975: I ******************************************
+2022-11-17 15:52:55.862179: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:52:55.862470: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:52:55.862544: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:52:55.862650: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:52:55.862720: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:55.863034: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:55.863242: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:55.863433: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:55.863623: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:55.863819: I Analyzed pair: (0.12758, 0.12765): True
+2022-11-17 15:52:55.863978: I Check List: [False, False, True, False, False, False, True, False, True, True]
+2022-11-17 15:52:57.165501: I Epoch 85/100 loss 0.11642
+2022-11-17 15:52:57.165612: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:57.266294: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:52:57.266572: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:52:57.266708: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:52:57.266876: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:52:57.267051: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:52:57.267274: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:57.267500: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:57.267708: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:57.267905: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:57.268109: I Analyzed pair: (0.12686, 0.12758): True
+2022-11-17 15:52:57.268275: I Check List: [True, False, False, True, False, False, False, True, False, True]
+2022-11-17 15:52:58.552100: I Epoch 86/100 loss 0.11370
+2022-11-17 15:52:58.552211: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:52:58.642465: I ******************************************
+2022-11-17 15:52:58.649962: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:52:58.650225: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:52:58.650305: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:52:58.650447: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:52:58.650522: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:52:58.650590: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:52:58.650658: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:52:58.650726: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:52:58.650886: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:52:58.651038: I Analyzed pair: (0.12815, 0.12686): False
+2022-11-17 15:52:58.651172: I Check List: [False, True, False, False, True, False, False, False, True, False]
+2022-11-17 15:52:59.943280: I Epoch 87/100 loss 0.11103
+2022-11-17 15:52:59.943394: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:00.040613: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:00.040905: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:00.041044: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:00.041173: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:00.041301: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:53:00.041428: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:53:00.041552: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:53:00.041676: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:53:00.041811: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:53:00.041935: I Analyzed pair: (0.12807, 0.12815): True
+2022-11-17 15:53:00.042043: I Check List: [True, False, True, False, False, True, False, False, False, True]
+2022-11-17 15:53:01.339506: I Epoch 88/100 loss 0.10851
+2022-11-17 15:53:01.339617: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:01.428382: I ******************************************
+2022-11-17 15:53:01.435923: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:01.436152: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:01.436266: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:01.436339: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:01.436409: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:01.436567: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:53:01.436699: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:53:01.436825: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:53:01.436949: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:53:01.437073: I Analyzed pair: (0.12849, 0.12807): False
+2022-11-17 15:53:01.437126: I Check List: [False, True, False, True, False, False, True, False, False, False]
+2022-11-17 15:53:02.709130: I Epoch 89/100 loss 0.10598
+2022-11-17 15:53:02.709241: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:02.808106: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:02.808315: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:02.808429: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:02.808567: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:02.808638: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:02.808767: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:02.808835: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:53:02.808961: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:53:02.809091: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:53:02.809218: I Analyzed pair: (0.12893, 0.12849): False
+2022-11-17 15:53:02.809325: I Check List: [True, False, True, False, True, False, False, True, False, False]
+2022-11-17 15:53:04.082170: I Epoch 90/100 loss 0.10355
+2022-11-17 15:53:04.082280: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:04.174206: I ******************************************
+2022-11-17 15:53:04.181610: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:04.181838: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:04.181953: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:04.182090: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:04.182161: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:04.182288: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:04.182358: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:04.182483: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:53:04.182607: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:53:04.182733: I Analyzed pair: (0.1298, 0.12893): False
+2022-11-17 15:53:04.182841: I Check List: [False, True, False, True, False, True, False, False, True, False]
+2022-11-17 15:53:05.450160: I Epoch 91/100 loss 0.10125
+2022-11-17 15:53:05.450273: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:05.539520: I ******************************************
+2022-11-17 15:53:05.546727: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:05.546932: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:05.547043: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:05.547179: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:05.547307: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:05.547433: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:05.547556: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:05.547679: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:05.547806: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:53:05.547929: I Analyzed pair: (0.12956, 0.1298): True
+2022-11-17 15:53:05.548056: I Check List: [False, False, True, False, True, False, True, False, False, True]
+2022-11-17 15:53:06.830234: I Epoch 92/100 loss 0.09902
+2022-11-17 15:53:06.830350: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:06.927807: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:06.928045: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:06.928166: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:06.928279: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:06.928391: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:06.928506: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:06.928617: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:06.928729: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:06.928841: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:06.928954: I Analyzed pair: (0.12983, 0.12956): False
+2022-11-17 15:53:06.929049: I Check List: [True, False, False, True, False, True, False, True, False, False]
+2022-11-17 15:53:08.202776: I Epoch 93/100 loss 0.09687
+2022-11-17 15:53:08.202891: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:08.293650: I ******************************************
+2022-11-17 15:53:08.300959: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:08.301113: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:08.301187: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:08.301326: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:08.301437: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:08.301508: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:08.301643: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:08.301712: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:08.301840: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:08.301965: I Analyzed pair: (0.13071, 0.12983): False
+2022-11-17 15:53:08.302073: I Check List: [False, True, False, False, True, False, True, False, True, False]
+2022-11-17 15:53:09.679846: I Epoch 94/100 loss 0.09477
+2022-11-17 15:53:09.679973: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:09.771294: I ******************************************
+2022-11-17 15:53:09.778490: I Analyzed pair: (0.13614, 0.13559): False
+2022-11-17 15:53:09.778719: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:09.778793: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:09.778863: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:09.778933: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:09.779041: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:09.779110: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:09.779242: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:09.779369: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:09.779492: I Analyzed pair: (0.13016, 0.13071): True
+2022-11-17 15:53:09.779599: I Check List: [False, False, True, False, False, True, False, True, False, True]
+2022-11-17 15:53:11.057221: I Epoch 95/100 loss 0.09273
+2022-11-17 15:53:11.057332: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:11.149418: I ******************************************
+2022-11-17 15:53:11.157802: I Analyzed pair: (0.13631, 0.13614): False
+2022-11-17 15:53:11.158078: I Analyzed pair: (0.13614, 0.13559): False
+2022-11-17 15:53:11.158258: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:11.158427: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:11.158597: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:11.158764: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:11.158931: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:11.159096: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:11.159259: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:11.159423: I Analyzed pair: (0.13218, 0.13016): False
+2022-11-17 15:53:11.159567: I Check List: [False, False, False, True, False, False, True, False, True, False]
+2022-11-17 15:53:12.465584: I Epoch 96/100 loss 0.09076
+2022-11-17 15:53:12.465694: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:12.554328: I ******************************************
+2022-11-17 15:53:12.561416: I Analyzed pair: (0.13743, 0.13631): False
+2022-11-17 15:53:12.561624: I Analyzed pair: (0.13631, 0.13614): False
+2022-11-17 15:53:12.561699: I Analyzed pair: (0.13614, 0.13559): False
+2022-11-17 15:53:12.561807: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:12.561878: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:12.562011: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:12.562081: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:12.562208: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:12.562332: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:12.562456: I Analyzed pair: (0.13138, 0.13218): True
+2022-11-17 15:53:12.562562: I Check List: [False, False, False, False, True, False, False, True, False, True]
+2022-11-17 15:53:14.051049: I Epoch 97/100 loss 0.08887
+2022-11-17 15:53:14.051158: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:14.154128: I Analyzed pair: (0.13712, 0.13743): True
+2022-11-17 15:53:14.154385: I Analyzed pair: (0.13743, 0.13631): False
+2022-11-17 15:53:14.154476: I Analyzed pair: (0.13631, 0.13614): False
+2022-11-17 15:53:14.154553: I Analyzed pair: (0.13614, 0.13559): False
+2022-11-17 15:53:14.154723: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:14.154799: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:14.154938: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:14.155072: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:14.155202: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:14.155333: I Analyzed pair: (0.13352, 0.13138): False
+2022-11-17 15:53:14.155444: I Check List: [True, False, False, False, False, True, False, False, True, False]
+2022-11-17 15:53:15.481094: I Epoch 98/100 loss 0.08704
+2022-11-17 15:53:15.481212: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:15.582831: I Analyzed pair: (0.13702, 0.13712): True
+2022-11-17 15:53:15.583054: I Analyzed pair: (0.13712, 0.13743): True
+2022-11-17 15:53:15.583172: I Analyzed pair: (0.13743, 0.13631): False
+2022-11-17 15:53:15.583250: I Analyzed pair: (0.13631, 0.13614): False
+2022-11-17 15:53:15.583390: I Analyzed pair: (0.13614, 0.13559): False
+2022-11-17 15:53:15.583525: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:15.583658: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:15.583744: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:15.583908: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:15.584059: I Analyzed pair: (0.13277, 0.13352): True
+2022-11-17 15:53:15.584183: I Check List: [True, True, False, False, False, False, True, False, False, True]
+2022-11-17 15:53:16.958024: I Epoch 99/100 loss 0.08525
+2022-11-17 15:53:16.958151: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:17.057909: I Analyzed pair: (0.13655, 0.13702): True
+2022-11-17 15:53:17.058130: I Analyzed pair: (0.13702, 0.13712): True
+2022-11-17 15:53:17.058239: I Analyzed pair: (0.13712, 0.13743): True
+2022-11-17 15:53:17.058378: I Analyzed pair: (0.13743, 0.13631): False
+2022-11-17 15:53:17.058448: I Analyzed pair: (0.13631, 0.13614): False
+2022-11-17 15:53:17.058578: I Analyzed pair: (0.13614, 0.13559): False
+2022-11-17 15:53:17.058647: I Analyzed pair: (0.13559, 0.13411): False
+2022-11-17 15:53:17.058772: I Analyzed pair: (0.13411, 0.13505): True
+2022-11-17 15:53:17.058896: I Analyzed pair: (0.13505, 0.134): False
+2022-11-17 15:53:17.059021: I Analyzed pair: (0.134, 0.13277): False
+2022-11-17 15:53:17.059127: I Check List: [True, True, True, False, False, False, False, True, False, False]
+2022-11-17 15:53:18.403967: I Epoch 100/100 loss 0.08353
+2022-11-17 15:53:18.404080: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 15:53:18.492869: I ******************************************

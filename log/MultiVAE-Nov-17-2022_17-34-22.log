@@ -1,0 +1,33 @@
+2022-11-17 17:34:23.712401: I Loading parameters
+2022-11-17 17:34:23.712612: I Parameter intermediate_dim set to 200
+2022-11-17 17:34:23.712711: I Parameter latent_dim set to 50
+2022-11-17 17:34:23.712754: I Parameter reg_lambda set to 0
+2022-11-17 17:34:23.712793: I Parameter lr set to 0.01
+2022-11-17 17:34:23.712831: I Parameter dropout_pkeep set to 0.8
+2022-11-17 17:34:26.088474: I Epoch 1/10 loss 973.41638
+2022-11-17 17:34:26.089078: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:26.175781: I I have found a best iteration
+2022-11-17 17:34:27.700363: I Epoch 2/10 loss 242.52287
+2022-11-17 17:34:27.700629: I Removing old recommendations from: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:27.700837: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:27.788175: I I have found a best iteration
+2022-11-17 17:34:29.387708: I Epoch 3/10 loss 103.47013
+2022-11-17 17:34:29.387994: I Removing old recommendations from: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:29.388199: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:29.472669: I I have found a best iteration
+2022-11-17 17:34:30.984847: I Epoch 4/10 loss 56.82123
+2022-11-17 17:34:30.985111: I Removing old recommendations from: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:30.985336: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:31.076913: I I have found a best iteration
+2022-11-17 17:34:32.598995: I Epoch 5/10 loss 36.30805
+2022-11-17 17:34:32.599259: I Removing old recommendations from: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:32.599478: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:32.686252: I I have found a best iteration
+2022-11-17 17:34:34.181405: I Epoch 6/10 loss 24.89128
+2022-11-17 17:34:35.698428: I Epoch 7/10 loss 18.26638
+2022-11-17 17:34:37.203463: I Epoch 8/10 loss 13.93538
+2022-11-17 17:34:38.693806: I Epoch 9/10 loss 10.99014
+2022-11-17 17:34:38.694079: I Removing old recommendations from: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:38.694298: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:34:38.781618: I I have found a best iteration
+2022-11-17 17:34:40.292014: I Epoch 10/10 loss 8.88486

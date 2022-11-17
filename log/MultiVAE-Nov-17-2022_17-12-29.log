@@ -1,0 +1,30 @@
+2022-11-17 17:12:31.914970: I Loading parameters
+2022-11-17 17:12:31.915143: I Parameter intermediate_dim set to 200
+2022-11-17 17:12:31.915262: I Parameter latent_dim set to 50
+2022-11-17 17:12:31.915379: I Parameter reg_lambda set to 0
+2022-11-17 17:12:31.915629: I Parameter lr set to 0.01
+2022-11-17 17:12:31.915832: I Parameter dropout_pkeep set to 0.8
+2022-11-17 17:12:38.069435: I Epoch 1/10 loss 973.41638
+2022-11-17 17:12:38.069638: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:12:38.174383: I ******************************************
+2022-11-17 17:12:47.718811: I Epoch 2/10 loss 242.52287
+2022-11-17 17:12:47.719013: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:12:47.822540: I ******************************************
+2022-11-17 17:12:54.359171: I Epoch 3/10 loss 103.47013
+2022-11-17 17:12:54.359376: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:12:54.463855: I ******************************************
+2022-11-17 17:12:59.043804: I Epoch 4/10 loss 56.82123
+2022-11-17 17:12:59.044018: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:12:59.151762: I ******************************************
+2022-11-17 17:13:41.523934: I Epoch 5/10 loss 36.30805
+2022-11-17 17:13:41.524144: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:13:41.628485: I ******************************************
+2022-11-17 17:13:46.017942: I Epoch 6/10 loss 24.89128
+2022-11-17 17:13:46.018182: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:13:49.449196: I Epoch 7/10 loss 18.26638
+2022-11-17 17:13:49.449392: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:13:52.956260: I Epoch 8/10 loss 13.93538
+2022-11-17 17:13:52.956463: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:13:56.424390: I Epoch 9/10 loss 10.99014
+2022-11-17 17:13:56.424610: I Writing recommendations at: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+2022-11-17 17:13:56.529725: I ******************************************
