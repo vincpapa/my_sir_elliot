@@ -24,4 +24,4 @@ from elliot.run import run_experiment
 #     f.writelines(ml_1m_ratings)
 #
 # print("Done! We are now starting the Elliot's experiment")
-run_experiment("config_files/sample_ktup.yml")
+run_experiment("config_files/examples/sample_ktup.yml")

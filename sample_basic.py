@@ -24,4 +24,4 @@ with open("data/cat_dbpedia_movielens_1m_v030/dataset.tsv", "w") as f:
     f.writelines(ml_1m_ratings)
 
 print("Done! We are now starting the Elliot's experiment")
-run_experiment("config_files/basic_configuration_v030.yml")
+run_experiment("config_files/examples/basic_configuration_v030.yml")

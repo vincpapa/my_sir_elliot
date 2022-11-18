@@ -38,7 +38,8 @@ print(u'''
          \\///////////////   \\/////////   \\/////////   \\///      \\/////          \\/////    
          ''')
 
-def run_experiment(config_path: str = ''):
+
+def run_experiment(config_path: str = '', per_user=False):
     builder = NameSpaceBuilder(config_path, here, path.abspath(path.dirname(config_path)))
     base = builder.base
     config_test(builder, base)
@@ -176,27 +177,29 @@ def run_experiment(config_path: str = ''):
         res_handler.save_best_statistical_results(stat_test=StatTest.WilcoxonTest,
                                                   output=base.base_namespace.path_output_rec_performance)
 
-    logger.info("End experiment")
-    logger.info("I'm saving the metrics results per user!")
-    if not os.path.exists("results/per_user"):
-        os.mkdir("results/per_user")
-        logger.info("I have created per_user folder")
+    if per_user:
+        logger.info("I'm saving the metrics results per user!")
+        if not os.path.exists("results/per_user"):
+            os.mkdir("results/per_user")
+            logger.info("I have created per_user folder")
+        else:
+            logger.info("The per_user older already exists")
+        for k in cleaned_all_trials.keys():
+            # print(f"KEY: {k} ")
+            for i in range(0, len(cleaned_all_trials[k])):
+                # print(cleaned_all_trials[k][i]['name'])
+                for el in cleaned_all_trials[k][i]['test_statistical_results']:
+                    lista = []
+                    # print(f"CUT-OFF: {el}")
+                    for metric in cleaned_all_trials[k][i]['test_statistical_results'][el].keys():
+                        lista.append(pd.DataFrame(cleaned_all_trials[k][i]['test_statistical_results'][el][metric].items(),
+                                                  columns=['User', metric]))
+                    df_merge = reduce(lambda x, y: pd.merge(x, y, on='User'), lista)
+                    df_merge.to_csv("results/per_user/" + cleaned_all_trials[k][i]['name'] + "_cutoff=" + str(el) + ".tsv", sep='\t', index=False)
+        logger.info("I successfully saved the metrics results per user!")
     else:
-        logger.info("The per_user older already exists")
-
-    for k in cleaned_all_trials.keys():
-        # print(f"KEY: {k} ")
-        for i in range(0, len(cleaned_all_trials[k])):
-            # print(cleaned_all_trials[k][i]['name'])
-            for el in cleaned_all_trials[k][i]['test_statistical_results']:
-                lista = []
-                # print(f"CUT-OFF: {el}")
-                for metric in cleaned_all_trials[k][i]['test_statistical_results'][el].keys():
-                    lista.append(pd.DataFrame(cleaned_all_trials[k][i]['test_statistical_results'][el][metric].items(),
-                                              columns=['User', metric]))
-                df_merge = reduce(lambda x, y: pd.merge(x, y, on='User'), lista)
-                df_merge.to_csv("results/per_user/" + cleaned_all_trials[k][i]['name'] + "_cutoff=" + str(el) + ".tsv", sep='\t', index=False)
-    logger.info("I successfully saved the metrics results per user!")
+        logger.info("You did not choose to save per_user metrics")
+    logger.info("End experiment")
     # TODO: check before to push only this feature!
     # logger.info("Start Post-Hoc scripts")
 

@@ -18,6 +18,6 @@ Moreover, Elliot allows considering complex neural architecture search spaces by
 (32, 16, 8) indicates that the neural network consists of three hidden layers with 32, 16, and 8 units, respectively.
 
 
-|To see the full configuration file please visit the following [link](config_files/advanced_configuration.yml)|
+|To see the full configuration file please visit the following [link](config_files/examples/advanced_configuration.yml)|
 |-------------------------------------------------------------------------------------------------------------|
 |**To run the experiment use the following [script](sample_advanced.py)**|

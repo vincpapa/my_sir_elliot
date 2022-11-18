@@ -22,4 +22,4 @@ with open("data/movielens_100k/dataset.tsv", "w") as f:
     f.writelines(ml_100k_ratings)
 
 print("Done! We are now starting the Elliot's experiment")
-run_experiment("config_files/sample_gan.yml")
+run_experiment("config_files/examples/sample_gan.yml")
