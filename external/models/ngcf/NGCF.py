@@ -11,7 +11,7 @@ from tqdm import tqdm
 import numpy as np
 import torch
 import os
-
+import glob
 from elliot.utils.write import store_recommendation
 from elliot.dataset.samplers import custom_sampler_batch as csb
 from elliot.recommender import BaseRecommenderModel
@@ -146,19 +146,36 @@ class NGCF(RecMixin, BaseRecommenderModel):
             else:
                 self.logger.info(f'Finished')
 
-            if self._save_recs:
-                self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
-                if it is not None:
-                    store_recommendation(recs[1], os.path.abspath(
-                        os.sep.join([self._config.path_output_rec_result, f"{self.name}_it={it + 1}.tsv"])))
-                else:
-                    store_recommendation(recs[1], os.path.abspath(
-                        os.sep.join([self._config.path_output_rec_result, f"{self.name}.tsv"])))
+            #if self._save_recs:
+            #    self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
+            #    if it is not None:
+            #        store_recommendation(recs[1], os.path.abspath(
+            #            os.sep.join([self._config.path_output_rec_result, f"{self.name}_it={it + 1}.tsv"])))
+            #    else:
+            #        store_recommendation(recs[1], os.path.abspath(
+            #            os.sep.join([self._config.path_output_rec_result, f"{self.name}.tsv"])))
 
             if (len(self._results) - 1) == self.get_best_arg():
+
+                if self._save_recs:
+                    if it is not None:
+                        it_list = glob.glob(os.path.abspath(
+                            os.sep.join([self._config.path_output_rec_result, f"{self.name}_*.tsv"])))
+                        if it_list:
+                            self.logger.info(f"Removing old recommendations from: {self._config.path_output_rec_result}")
+                            for file in it_list:
+                                os.remove(file)
+                        self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
+                        store_recommendation(recs[1], os.path.abspath(
+                            os.sep.join([self._config.path_output_rec_result, f"{self.name}_it={it + 1}.tsv"])))
+                    else:
+                        self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
+                        store_recommendation(recs[1], os.path.abspath(
+                            os.sep.join([self._config.path_output_rec_result, f"{self.name}.tsv"])))
+
                 if it is not None:
                     self._params.best_iteration = it + 1
-                self.logger.info("******************************************")
+                self.logger.info("I have found a best iteration")
                 self.best_metric_value = self._results[-1][self._validation_k]["val_results"][self._validation_metric]
                 if self._save_weights:
                     if hasattr(self, "_model"):
