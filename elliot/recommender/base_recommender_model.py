@@ -21,7 +21,7 @@ from abc import abstractmethod
 from functools import wraps
 from types import SimpleNamespace
 from elliot.utils import logging
-from elliot.recommender.early_stopping import EarlyStopping
+from elliot.recommender.early_stopping_old import EarlyStopping
 
 
 class BaseRecommenderModel(ABC):

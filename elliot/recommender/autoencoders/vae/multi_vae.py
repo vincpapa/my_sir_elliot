@@ -15,6 +15,7 @@ from elliot.recommender.autoencoders.vae.multi_vae_model import VariationalAutoE
 from elliot.recommender.base_recommender_model import init_charger
 from elliot.recommender.recommender_utils_mixin import RecMixin
 
+import math
 
 class MultiVAE(RecMixin, BaseRecommenderModel):
     r"""
@@ -108,6 +109,10 @@ class MultiVAE(RecMixin, BaseRecommenderModel):
                         anneal = self._anneal_cap
 
                     loss += self._model.train_step(batch, anneal).numpy()
+
+                    if math.isnan(loss) or math.isinf(loss) or (not loss):
+                        break
+
                     t.set_postfix({'loss': f'{loss/steps:.5f}'})
                     t.update()
                     self._update_count += 1
