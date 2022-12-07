@@ -20,7 +20,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 class Sampling(layers.Layer):
     """Uses (z_mean, z_log_var) to sample z, the vector encoding a digit."""
 
-    @tf.function
+    # @tf.function
     def call(self, inputs):
         z_mean, z_log_var = inputs
         batch = tf.shape(z_mean)[0]
@@ -53,7 +53,7 @@ class Encoder(layers.Layer):
                                        kernel_regularizer=keras.regularizers.l2(regularization_lambda))
         self.sampling = Sampling()
 
-    @tf.function
+    # @tf.function
     def call(self, inputs, training=None):
         i_normalized = self.l2_normalizer(inputs, 1)
         i_drop = self.input_dropout(i_normalized, training=training)
@@ -77,7 +77,7 @@ class Decoder(layers.Layer):
                                        kernel_initializer=keras.initializers.GlorotNormal(),
                                        kernel_regularizer=keras.regularizers.l2(regularization_lambda))
 
-    @tf.function
+    # @tf.function
     def call(self, inputs, **kwargs):
         x = self.dense_proj(inputs)
         return self.dense_output(x)
@@ -111,7 +111,7 @@ class VariationalAutoEncoder(keras.Model):
     def get_config(self):
         raise NotImplementedError
 
-    @tf.function
+    # @tf.function
     def call(self, inputs, training=None, **kwargs):
         z_mean, z_log_var, z = self.encoder(inputs, training=training)
         reconstructed = self.decoder(z)
@@ -122,7 +122,7 @@ class VariationalAutoEncoder(keras.Model):
         # self.add_loss(kl_loss)
         return reconstructed, kl_loss
 
-    @tf.function
+    # @tf.function
     def train_step(self, batch, anneal_ph=0.0, **kwargs):
         with tf.GradientTape() as tape:
 
@@ -141,7 +141,7 @@ class VariationalAutoEncoder(keras.Model):
 
         return loss
 
-    @tf.function
+    # @tf.function
     def predict(self, inputs, training=False, **kwargs):
         """
         Get full predictions on the whole users/items matrix.
@@ -154,6 +154,6 @@ class VariationalAutoEncoder(keras.Model):
         log_softmax_var = tf.nn.log_softmax(logits)
         return log_softmax_var
 
-    @tf.function
+    # @tf.function
     def get_top_k(self, preds, train_mask, k=100):
         return tf.nn.top_k(tf.where(train_mask, preds, -np.inf), k=k, sorted=True)
