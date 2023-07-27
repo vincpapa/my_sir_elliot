@@ -17,7 +17,7 @@ with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
     for line in zip_ref.open("ml-1m/ratings.dat"):
         ml_1m_ratings.append(str(line, "utf-8").replace("::", "\t"))
 
-print("Printing ratings.tsv to data/movielens_1m/ ..")
+print("Printing ratings.tsv to data/movielens1m/ ..")
 
 os.makedirs("data/cat_dbpedia_movielens_1m_v030", exist_ok=True)
 with open("data/cat_dbpedia_movielens_1m_v030/dataset.tsv", "w") as f:

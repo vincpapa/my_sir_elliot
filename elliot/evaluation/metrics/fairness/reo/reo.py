@@ -45,7 +45,7 @@ class REO(BaseMetric):
         complex_metrics:
          - metric: REO
           clustering_name: ItemPopularity
-          clustering_file: ../data/movielens_1m/i_pop.tsv
+          clustering_file: ../data/movielens1m/i_pop.tsv
     """
 
     def __init__(self, recommendations, config, params, eval_objects, additional_data):

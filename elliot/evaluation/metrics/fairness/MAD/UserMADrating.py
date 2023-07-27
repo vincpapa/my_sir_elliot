@@ -30,7 +30,7 @@ class UserMADrating(BaseMetric):
         complex_metrics:
         - metric: UserMADrating
           clustering_name: Happiness
-          clustering_file: ../data/movielens_1m/u_happy.tsv
+          clustering_file: ../data/movielens1m/u_happy.tsv
     """
 
     def __init__(self, recommendations, config, params, eval_objects, additional_data):

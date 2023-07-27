@@ -33,9 +33,9 @@ class BiasDisparityBS(BaseMetric):
         complex_metrics:
             - metric: BiasDisparityBS
               user_clustering_name: Happiness
-              user_clustering_file: ../data/movielens_1m/u_happy.tsv
+              user_clustering_file: ../data/movielens1m/u_happy.tsv
               item_clustering_name: ItemPopularity
-              item_clustering_file: ../data/movielens_1m/i_pop.tsv
+              item_clustering_file: ../data/movielens1m/i_pop.tsv
     """
 
     def __init__(self, recommendations, config, params, eval_objects, additional_data):

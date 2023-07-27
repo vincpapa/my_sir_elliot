@@ -126,10 +126,10 @@ for a cutoff equal to top_k, unless otherwise noted.
 
 ```yaml
 experiment:
-  dataset: movielens_1m
+  dataset: movielens1m
   data_config:
     strategy: dataset
-    dataset_path: ../data/movielens_1m/dataset.tsv
+    dataset_path: ../data/movielens1m/dataset.tsv
   splitting:
     test_splitting:
       strategy: random_subsampling

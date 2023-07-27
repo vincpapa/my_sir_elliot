@@ -5,7 +5,7 @@ import os
 # parser = argparse.ArgumentParser(description="Run sample main.")
 # parser.add_argument('--config', type=str, default='svdgcn')
 # args = parser.parse_args()
-per_user = True
+per_user = False
 conf_list = glob.glob(os.sep.join(["config_files/*.yml"]))
 for conf_file in conf_list:
     run_experiment(f"{conf_file}", per_user)
