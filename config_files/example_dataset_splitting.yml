@@ -1,0 +1,27 @@
+experiment:
+  dataset: AMAZON_FASHION
+#  dataset: movielens1m
+  data_config:
+    strategy: dataset
+    dataset_path: ../data/amazon_fashion/AMAZON_FASHION.tsv
+#    dataset_path: ../data/movielens1m/dataset.tsv
+  splitting:
+    save_on_disk: True
+    save_folder: ../data/amazon_fashion/
+#    save_folder: ../data/movielens1m/
+    test_splitting:
+      strategy: random_subsampling
+      test_ratio: 0.2
+    validation_splitting:
+      strategy: random_subsampling
+      test_ratio: 0.1
+  top_k: 50
+  evaluation:
+    cutoffs: [ 10, 5 ]
+    simple_metrics: [ nDCG  ]
+  models:
+    Random:
+      meta:
+        verbose: True
+        save_recs: True
+      seed: 42

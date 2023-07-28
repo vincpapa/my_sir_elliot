@@ -2,9 +2,9 @@ from tqdm import tqdm
 import numpy as np
 import torch
 import os
-import glob
+
 from elliot.utils.write import store_recommendation
-from elliot.dataset.samplers import custom_sampler as cs
+from .custom_sampler import Sampler
 from elliot.recommender import BaseRecommenderModel
 from elliot.recommender.base_recommender_model import init_charger
 from elliot.recommender.recommender_utils_mixin import RecMixin
@@ -13,6 +13,7 @@ from .LightGCNModel import LightGCNModel
 from torch_sparse import SparseTensor
 
 import math
+from glob import glob
 
 class LightGCN(RecMixin, BaseRecommenderModel):
     r"""
@@ -46,20 +47,20 @@ class LightGCN(RecMixin, BaseRecommenderModel):
     """
     @init_charger
     def __init__(self, data, config, params, *args, **kwargs):
-
-        self._sampler = cs.Sampler(self._data.i_train_dict)
-        if self._batch_size < 1:
-            self._batch_size = self._num_users
-
         ######################################
 
         self._params_list = [
             ("_learning_rate", "lr", "lr", 0.0005, float, None),
             ("_factors", "factors", "factors", 64, int, None),
             ("_l_w", "l_w", "l_w", 0.01, float, None),
-            ("_n_layers", "n_layers", "n_layers", 1, int, None)
+            ("_n_layers", "n_layers", "n_layers", 1, int, None),
+            ("_normalize", "normalize", "normalize", True, bool, None)
         ]
         self.autoset_params()
+
+        self._sampler = Sampler(self._data.i_train_dict, seed=self._seed)
+        if self._batch_size < 1:
+            self._batch_size = self._num_users
 
         row, col = data.sp_i_train.nonzero()
         col = [c + self._num_users for c in col]
@@ -78,6 +79,7 @@ class LightGCN(RecMixin, BaseRecommenderModel):
             l_w=self._l_w,
             n_layers=self._n_layers,
             adj=self.adj,
+            normalize=self._normalize,
             random_seed=self._seed
         )
 
@@ -94,7 +96,8 @@ class LightGCN(RecMixin, BaseRecommenderModel):
         for it in self.iterate(self._epochs):
             loss = 0
             steps = 0
-            with tqdm(total=int(self._data.transactions // self._batch_size), disable=not self._verbose) as t:
+            n_batch = int(self._data.transactions / self._batch_size) if self._data.transactions % self._batch_size == 0 else int(self._data.transactions / self._batch_size) + 1
+            with tqdm(total=n_batch, disable=not self._verbose) as t:
                 for batch in self._sampler.step(self._data.transactions, self._batch_size):
                     steps += 1
                     loss += self._model.train_step(batch)
@@ -106,6 +109,12 @@ class LightGCN(RecMixin, BaseRecommenderModel):
                     t.update()
 
             self.evaluate(it, loss / (it + 1))
+
+        if it + 1 == self._epochs and self._write_best_iterations:  # never met an early stopping condition
+            with open(self._config.path_output_rec_performance + '/best_iterations.tsv', 'a') as f:
+                f.write(self.name + '\t' + str(self._params.best_iteration) + '\n')
+            self.logger.info(f"Best iteration: {self._params.best_iteration}")
+            self.logger.info(f"Current configuration: {self.name}")
 
     def get_recommendations(self, k: int = 100):
         predictions_top_k_test = {}
@@ -139,14 +148,14 @@ class LightGCN(RecMixin, BaseRecommenderModel):
             else:
                 self.logger.info(f'Finished')
 
-            #if self._save_recs:
-            #    self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
-            #    if it is not None:
-            #        store_recommendation(recs[1], os.path.abspath(
-            #            os.sep.join([self._config.path_output_rec_result, f"{self.name}_it={it + 1}.tsv"])))
-            #    else:
-            #        store_recommendation(recs[1], os.path.abspath(
-            #            os.sep.join([self._config.path_output_rec_result, f"{self.name}.tsv"])))
+            # if self._save_recs:
+            #     self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
+            #     if it is not None:
+            #         store_recommendation(recs[1], os.path.abspath(
+            #             os.sep.join([self._config.path_output_rec_result, f"{self.name}_it={it + 1}.tsv"])))
+            #     else:
+            #         store_recommendation(recs[1], os.path.abspath(
+            #             os.sep.join([self._config.path_output_rec_result, f"{self.name}.tsv"])))
 
             if (len(self._results) - 1) == self.get_best_arg():
 
@@ -155,7 +164,8 @@ class LightGCN(RecMixin, BaseRecommenderModel):
                         it_list = glob.glob(os.path.abspath(
                             os.sep.join([self._config.path_output_rec_result, f"{self.name}_*.tsv"])))
                         if it_list:
-                            self.logger.info(f"Removing old recommendations from: {self._config.path_output_rec_result}")
+                            self.logger.info(
+                                f"Removing old recommendations from: {self._config.path_output_rec_result}")
                             for file in it_list:
                                 os.remove(file)
                         self.logger.info(f"Writing recommendations at: {self._config.path_output_rec_result}")
@@ -168,8 +178,7 @@ class LightGCN(RecMixin, BaseRecommenderModel):
 
                 if it is not None:
                     self._params.best_iteration = it + 1
-                self.logger.info("I have found a best iteration")
-                self.best_metric_value = self._results[-1][self._validation_k]["val_results"][self._validation_metric]
+                self.logger.info("******************************************")
                 self.best_metric_value = self._results[-1][self._validation_k]["val_results"][self._validation_metric]
                 if self._save_weights:
                     if hasattr(self, "_model"):
