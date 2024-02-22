@@ -1,16 +1,16 @@
 experiment:
-  dataset: movielens_1m
+  dataset: movielens1m
   data_config:
     strategy: fixed
-    train_path: ../data/movielens_1m/train.tsv
-    validation_path: ../data/movielens_1m/validation.tsv
-    test_path: ../data/movielens_1m/test.tsv
+    train_path: ../data/movielens1m/train.tsv
+    validation_path: ../data/movielens1m/validation.tsv
+    test_path: ../data/movielens1m/test.tsv
 #    strategy: dataset
 #    root_folder: ../data/{0}/splitting
 #    dataset_path: ../data/{0}/dataset.tsv
-#    train_path: /home/sisinflab/PycharmProjects/elliot/data/movielens_1m/splitting/0/0/train.tsv
-#    validation_path: /home/sisinflab/PycharmProjects/elliot/data/movielens_1m/splitting/0/0/validation.tsv
-#    test_path: /home/sisinflab/PycharmProjects/elliot/data/movielens_1m/splitting/0/test.tsv
+#    train_path: /home/sisinflab/PycharmProjects/elliot/data/movielens1m/splitting/0/0/train.tsv
+#    validation_path: /home/sisinflab/PycharmProjects/elliot/data/movielens1m/splitting/0/0/validation.tsv
+#    test_path: /home/sisinflab/PycharmProjects/elliot/data/movielens1m/splitting/0/test.tsv
 #  prefiltering:
 #    - strategy: global_threshold
 #      threshold: 3
@@ -40,7 +40,7 @@ experiment:
   external_models_path: ../external/models/__init__.py
   models:
 #    RecommendationFolder:
-#      folder: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens_1m/recs
+#      folder: /home/vincenzo/PycharmProjects/my_sir_elliot/results/movielens1m/recs
 #    ItemKNN:
 #      meta:
 #        verbose: True

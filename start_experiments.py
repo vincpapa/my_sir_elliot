@@ -6,6 +6,6 @@ import os
 # parser.add_argument('--config', type=str, default='svdgcn')
 # args = parser.parse_args()
 per_user = False
-conf_list = glob.glob(os.sep.join(["config_files/*.yml"]))
+conf_list = glob.glob(os.sep.join(["config_files/compute_metrics*ml-1m*PDU_SCALE*"]))
 for conf_file in conf_list:
     run_experiment(f"{conf_file}", per_user)

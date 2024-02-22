@@ -13,7 +13,7 @@ from .LightGCNModel import LightGCNModel
 from torch_sparse import SparseTensor
 
 import math
-from glob import glob
+import glob
 
 class LightGCN(RecMixin, BaseRecommenderModel):
     r"""

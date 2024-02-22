@@ -13,7 +13,7 @@ import numpy as np
 from elliot.evaluation.metrics.base_metric import BaseMetric
 
 
-class APLT(BaseMetric):
+class Delta_APLT(BaseMetric):
     r"""
     Average percentage of long tail items
 
@@ -46,6 +46,7 @@ class APLT(BaseMetric):
         :param eval_objects: list of objects that may be useful for the computation of the different metrics
         """
         super().__init__(recommendations, config, params, eval_objects)
+        self._train = self._evaluation_objects.data.train_dict
         self._cutoff = self._evaluation_objects.cutoff
         self._long_tail = self._evaluation_objects.pop.get_long_tail()
 
@@ -55,10 +56,10 @@ class APLT(BaseMetric):
         Metric Name Getter
         :return: returns the public name of the metric
         """
-        return "APLT"
+        return "Delta_APLT"
 
     @staticmethod
-    def __user_aplt(user_recommendations, cutoff, long_tail):
+    def __user_delta_aplt(user_train, user_recommendations, cutoff, long_tail):
         """
         Per User Average percentage of long tail items
         :param user_recommendations: list of user recommendation in the form [(item1,value1),...]
@@ -67,10 +68,9 @@ class APLT(BaseMetric):
         :return: the value of the Average Recommendation Popularity metric for the specific user
         """
         try:
-            return len(set([i for i,v in user_recommendations[:cutoff]]) & set(long_tail)) / len(user_recommendations[:cutoff])
+            return np.abs(len(user_train & set(long_tail)) / len(user_train) - len(set([i for i, v in user_recommendations[:cutoff]]) & set(long_tail)) / len(user_recommendations[:cutoff]))
         except ZeroDivisionError:
             return 0
-
     # def eval(self):
     #     """
     #     Evaluation function
@@ -86,6 +86,6 @@ class APLT(BaseMetric):
         Evaluation function
         :return: the overall averaged value of APLT
         """
-        return {u: APLT.__user_aplt(u_r, self._cutoff, self._long_tail)
+        return {u: Delta_APLT.__user_delta_aplt(set(self._train[u].keys()), u_r, self._cutoff, self._long_tail)
              for u, u_r in self._recommendations.items()}
 

@@ -1,5 +1,5 @@
 experiment:
-  dataset: movielens_1m
+  dataset: movielens1m
   data_config:
     strategy: dataset
     dataset_path: ../data/{0}/dataset.tsv
@@ -11,7 +11,7 @@ experiment:
   binarize: True
   splitting:
     save_on_disk: True
-    save_folder: ../data/movielens_1m/splitting/
+    save_folder: ../data/movielens1m/splitting/
     test_splitting:
 #      strategy: temporal_hold_out
       test_ratio: 0.2

@@ -13,7 +13,7 @@ import numpy as np
 from elliot.evaluation.metrics.base_metric import BaseMetric
 
 
-class APLT(BaseMetric):
+class RAPLT(BaseMetric):
     r"""
     Average percentage of long tail items
 
@@ -47,6 +47,7 @@ class APLT(BaseMetric):
         """
         super().__init__(recommendations, config, params, eval_objects)
         self._cutoff = self._evaluation_objects.cutoff
+        self._relevance = self._evaluation_objects.relevance.binary_relevance
         self._long_tail = self._evaluation_objects.pop.get_long_tail()
 
     @staticmethod
@@ -55,10 +56,10 @@ class APLT(BaseMetric):
         Metric Name Getter
         :return: returns the public name of the metric
         """
-        return "APLT"
+        return "RAPLT"
 
     @staticmethod
-    def __user_aplt(user_recommendations, cutoff, long_tail):
+    def __user_aplt(user_recommendations, cutoff, long_tail, relevant_items):
         """
         Per User Average percentage of long tail items
         :param user_recommendations: list of user recommendation in the form [(item1,value1),...]
@@ -66,10 +67,7 @@ class APLT(BaseMetric):
         :param user_relevant_items: list of user relevant items in the form [item1,...]
         :return: the value of the Average Recommendation Popularity metric for the specific user
         """
-        try:
-            return len(set([i for i,v in user_recommendations[:cutoff]]) & set(long_tail)) / len(user_recommendations[:cutoff])
-        except ZeroDivisionError:
-            return 0
+        return len(set([i for i, v in user_recommendations[:cutoff] if i in relevant_items]) & set(long_tail)) / len(user_recommendations[:cutoff])
 
     # def eval(self):
     #     """
@@ -86,6 +84,6 @@ class APLT(BaseMetric):
         Evaluation function
         :return: the overall averaged value of APLT
         """
-        return {u: APLT.__user_aplt(u_r, self._cutoff, self._long_tail)
+        return {u: RAPLT.__user_aplt(u_r, self._cutoff, self._long_tail, self._relevance.get_user_rel(u))
              for u, u_r in self._recommendations.items()}
 

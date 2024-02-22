@@ -159,6 +159,12 @@ class Evaluator(object):
                                        [m(recommendations, self._data.config, self._params, eval_objs) for m
                                         in self._metrics]
                                        if isinstance(metric_object, metrics.StatisticalMetric)}
+                for metric in self._complex_metrics:
+                    metric_object = metrics.parse_metric(metric["metric"])(recommendations, self._data.config,
+                                                                                 self._params, eval_objs, metric).get()[0]
+                    if getattr(metric_object, "eval_user_metric", None):
+                        if callable(getattr(metric_object, "eval_user_metric", None)):
+                            statistical_results[metric_object.name()] =  metric_object.eval_user_metric()
             return results, statistical_results
 
     def _compute_needed_recommendations(self):

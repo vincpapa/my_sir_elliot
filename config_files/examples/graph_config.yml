@@ -9,7 +9,7 @@ experiment:
     test_splitting:
       strategy: random_subsampling
       leave_n_out: 1
-  dataset: movielens_1m
+  dataset: movielens1m
   top_k: 100
   evaluation:
     simple_metrics: [HR, nDCG, Precision]

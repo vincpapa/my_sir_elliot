@@ -1,13 +1,13 @@
 experiment:
-  dataset: AMAZON_FASHION
+  dataset: amazon_books
 #  dataset: movielens1m
   data_config:
     strategy: dataset
-    dataset_path: ../data/amazon_fashion/AMAZON_FASHION.tsv
+    dataset_path: ../data/amazon_books/Books_5.tsv
 #    dataset_path: ../data/movielens1m/dataset.tsv
   splitting:
     save_on_disk: True
-    save_folder: ../data/amazon_fashion/
+    save_folder: ../data/amazon_books/
 #    save_folder: ../data/movielens1m/
     test_splitting:
       strategy: random_subsampling
@@ -15,10 +15,13 @@ experiment:
     validation_splitting:
       strategy: random_subsampling
       test_ratio: 0.1
+  prefiltering:
+    - strategy: iterative_k_core
+      core: 10
   top_k: 50
   evaluation:
     cutoffs: [ 10, 5 ]
-    simple_metrics: [ nDCG  ]
+    simple_metrics: [ nDCG ]
   models:
     Random:
       meta:

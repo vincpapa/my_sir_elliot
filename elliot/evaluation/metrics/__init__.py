@@ -36,12 +36,15 @@ from elliot.evaluation.metrics.diversity.SRecall import SRecall
 from elliot.evaluation.metrics.novelty.EFD import EFD, ExtendedEFD
 from elliot.evaluation.metrics.novelty.EPC import EPC, ExtendedEPC
 
-from elliot.evaluation.metrics.bias import ARP, APLT, ACLT, PopRSP, PopREO, ExtendedPopRSP, ExtendedPopREO
+from elliot.evaluation.metrics.bias import ARP, APLT, ACLT, PopRSP, PopREO, ExtendedPopRSP, ExtendedPopREO, Delta_APLT, Train_APLT, RAPLT, RAPLT_Recall
 
 from elliot.evaluation.metrics.fairness.MAD import UserMADrating, ItemMADrating, UserMADranking, ItemMADranking
 from elliot.evaluation.metrics.fairness.BiasDisparity import BiasDisparityBR, BiasDisparityBS, BiasDisparityBD
 from elliot.evaluation.metrics.fairness.rsp import RSP
 from elliot.evaluation.metrics.fairness.reo import REO
+
+from elliot.evaluation.metrics.multiobjective.PDU import PDU
+from elliot.evaluation.metrics.multiobjective.Hypervolume import HV
 
 from elliot.evaluation.metrics.statistical_array_metric import StatisticalMetric
 
@@ -89,7 +92,13 @@ _metric_dictionary = {
     "ExtendedPopRSP": ExtendedPopRSP,
     "ExtendedPopREO": ExtendedPopREO,
     "RSP": RSP,
-    "REO": REO
+    "REO": REO,
+    "Delta_APLT": Delta_APLT,
+    "Train_APLT": Train_APLT,
+    "RAPLT": RAPLT,
+    "RAPLT_Recall": RAPLT_Recall,
+    "PDU": PDU,
+    "HV": HV,
 }
 
 _lower_dict = {k.lower(): v for k, v in _metric_dictionary.items()}

@@ -10,7 +10,7 @@ experiment:
     test_splitting:
       strategy: temporal_hold_out
       test_ratio: 0.2
-  dataset: movielens_1m
+  dataset: movielens1m
   top_k: 50
   evaluation:
     cutoffs: [5, 10, 20, 50]
