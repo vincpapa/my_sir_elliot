@@ -60,6 +60,7 @@ class NGCF(RecMixin, BaseRecommenderModel):
             save_recs: True
           lr: 0.0005
           epochs: 50
+          epochs: 50
           batch_size: 512
           factors: 64
           l_w: 0.1

@@ -2,9 +2,9 @@ experiment:
   dataset: movielens1m
   data_config:
     strategy: fixed
-    train_path: ../data/movielens1m/train.tsv
-    validation_path: ../data/movielens1m/validation.tsv
-    test_path: ../data/movielens1m/test.tsv
+    train_path: ../data/{0}/train.tsv
+    validation_path: ../data/{0}/validation.tsv
+    test_path: ../data/{0}/test.tsv
 #    strategy: dataset
 #    root_folder: ../data/{0}/splitting
 #    dataset_path: ../data/{0}/dataset.tsv
